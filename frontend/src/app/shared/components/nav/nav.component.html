@@ -1,0 +1,27 @@
+<div class="row align-items-center">
+  <div class="col-md-4">
+    <img src="assets/images/Exceed.png" alt="Company Logo" class="img-fluid w-25" />
+  </div>
+  <div class="col-md-4">
+    <div class="d-flex align-items-center justify-content-center justify-content-md-end">
+      <div class="d-flex gap-3 topnavOptions">
+        <a href="#" class="fw500">Home</a>
+        <a href="#" class="fw500">Property Info</a>
+        <a href="#" class="fw500">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 d-flex justify-content-end align-items-center">
+    <div class="custom-select-wrapper me-3" id="language-select-wrapper">
+      <app-select [options]="languages" [selected]="selectedLanguage" ariaLabel="Language Select"
+        (selectionChange)="onLanguageChange($event)"></app-select>
+    </div>
+    <div class="custom-select-wrapper" id="currency-select-wrapper">
+      <div class="custom-options" id="currency-select-options">
+        <app-select [options]="currencies" [selected]="selectedCurrency" ariaLabel="Currency Select"
+          (selectionChange)="onCurrencyChange($event)">
+        </app-select>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div id="step1" class="steps d-block scroll-area container">
+    <div class="booking-card">
+        <div>
+            <p-datepicker [(ngModel)]="dates" selectionMode="range" [readonlyInput]="true" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Adults : </label>
+            <div class="input-group paxInput">
+                <span class="input-group-text" id="decrease"><i class="fas fa-minus"></i></span>
+                <input type="text" class="form-control text-center border-start-0 border-end-0" id="adultCount"
+                    value="1" />
+                <span class="input-group-text" id="increase"><i class="fas fa-plus"></i></span>
+            </div>
+        </div>
+        <div class="mb-3 text-center">
+            <button *ngIf="!showPromo" (click)="showPromoInput()" class="btn p-0" id="showPromo" onclick="promoCode()">
+                <i class="fa-solid fa-rectangle-ad"></i> Add promotional code
+            </button>
+            <input *ngIf="showPromo" type="text" class="form-control promo-input mt-2" placeholder="Enter code" id="promoInput" />
+        </div>
+        <button class="btn btn-danger w-100 nextBtn" onclick="gotoStep(2)">Search Rooms</button>
+    </div>
+</div>
