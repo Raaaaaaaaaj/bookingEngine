@@ -6,10 +6,9 @@
         <div class="mb-3">
             <label class="form-label">Adults : </label>
             <div class="input-group paxInput">
-                <span class="input-group-text" id="decrease"><i class="fas fa-minus"></i></span>
-                <input type="text" class="form-control text-center border-start-0 border-end-0" id="adultCount"
-                    value="1" />
-                <span class="input-group-text" id="increase"><i class="fas fa-plus"></i></span>
+                <span class="input-group-text" id="decrease" (click)="decrement()"><i class="fas fa-minus"></i></span>
+                <input type="text" class="form-control text-center border-start-0 border-end-0" id="adultCount" [(ngModel)]="adultCount" tabindex="0" (keydown)="handleKeyControl($event)" />
+                <span class="input-group-text" id="increase" (click)="increment()"><i class="fas fa-plus"></i></span>
             </div>
         </div>
         <div class="mb-3 text-center">
@@ -18,6 +17,6 @@
             </button>
             <input *ngIf="showPromo" type="text" class="form-control promo-input mt-2" placeholder="Enter code" id="promoInput" />
         </div>
-        <button class="btn btn-danger w-100 nextBtn" onclick="gotoStep(2)">Search Rooms</button>
+        <a href="/searchResult" class="btn btn-danger w-100 nextBtn">Search Rooms</a>
     </div>
 </div>
