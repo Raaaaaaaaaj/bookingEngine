@@ -9,9 +9,10 @@
     font-weight: 400;
 }
 
-/* body {
-  overflow-y: hidden;
-} */
+body {
+  /* overflow-y: hidden; */
+  height: 100vh;
+}
 
 /* Widths */
 .wd-100 {
@@ -65,4 +66,21 @@
 
 .pointer {
   cursor: pointer;
+}
+
+
+
+
+/* Prime NG OverRide Styles */
+/* Toast */
+.p-toast-message-error .p-toast-detail {
+    color: black !important;
+}
+
+/* DatePicker */
+.p-inputtext{
+  background-color: #f7f7f7 !important;
+  width: 100rem !important;
+  color: black !important;
+  text-align: center;
 }

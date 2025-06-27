@@ -1,22 +1,26 @@
-<div id="step1" class="steps d-block scroll-area container">
+<div id="step1" class="booking-container">
     <div class="booking-card">
-        <div>
-            <p-datepicker [(ngModel)]="dates" selectionMode="range" [readonlyInput]="true" />
+        <div class="mb-3">
+            <label class="form-label">Date : </label>
+            <br>
+            <p-datepicker [(ngModel)]="dates" selectionMode="range" [readonlyInput]="true" placeholder="Pick Dates" />
         </div>
         <div class="mb-3">
             <label class="form-label">Adults : </label>
             <div class="input-group paxInput">
-                <span class="input-group-text" id="decrease" (click)="decrement()"><i class="fas fa-minus"></i></span>
+                <span class="input-group-text pointer" id="decrease" (click)="decrement()"><i class="fas fa-minus"></i></span>
+                  <p-toast></p-toast>
                 <input type="text" class="form-control text-center border-start-0 border-end-0" id="adultCount" [(ngModel)]="adultCount" tabindex="0" (keydown)="handleKeyControl($event)" />
-                <span class="input-group-text" id="increase" (click)="increment()"><i class="fas fa-plus"></i></span>
+                <span class="input-group-text pointer" id="increase" (click)="increment()" [class.text-muted]="adultCount>=maxAdultCount"
+                    [style.cursor]="adultCount >= maxAdultCount ? 'not-allowed' : 'pointer'"><i class="fas fa-plus"></i></span>
             </div>
         </div>
-        <div class="mb-3 text-center">
+        <div class="mb-3 mt-2 text-center">
             <button *ngIf="!showPromo" (click)="showPromoInput()" class="btn p-0" id="showPromo" onclick="promoCode()">
                 <i class="fa-solid fa-rectangle-ad"></i> Add promotional code
             </button>
             <input *ngIf="showPromo" type="text" class="form-control promo-input mt-2" placeholder="Enter code" id="promoInput" />
         </div>
-        <a href="/searchResult" class="btn btn-danger w-100 nextBtn">Search Rooms</a>
+        <button class="btn btn-danger w-100 nextBtn" [disabled]="adultCount<=0 || !dates || dates.length<2" (click)="searchResults($event)" >Search Rooms</button>
     </div>
 </div>
