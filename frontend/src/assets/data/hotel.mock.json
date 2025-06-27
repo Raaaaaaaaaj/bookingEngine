@@ -1,6 +1,6 @@
 [
   {
-    "id": "hotel-001",
+    "id": "001",
     "name": "Taj Palace Mumbai",
     "location": "Mumbai",
     "address": "8 minutes walk to central point, Mumbai",
@@ -16,8 +16,7 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -29,7 +28,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-002",
+    "id": "002",
     "name": "Trident Kolkata",
     "location": "Kolkata",
     "address": "8 minutes walk to central point, Kolkata",
@@ -44,8 +43,7 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -57,7 +55,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-003",
+    "id": "003",
     "name": "Novotel Hyderabad",
     "location": "Hyderabad",
     "address": "10 minutes walk to central point, Hyderabad",
@@ -73,8 +71,7 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -86,7 +83,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-004",
+    "id": "004",
     "name": "Trident Delhi",
     "location": "Delhi",
     "address": "3 minutes walk to central point, Delhi",
@@ -104,8 +101,7 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1521783988139-89397d761dce?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -117,7 +113,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-005",
+    "id": "005",
     "name": "Trident Mumbai",
     "location": "Mumbai",
     "address": "7 minutes walk to central point, Mumbai",
@@ -136,8 +132,7 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -149,7 +144,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-006",
+    "id": "006",
     "name": "ITC Grand Kolkata",
     "location": "Kolkata",
     "address": "5 minutes walk to central point, Kolkata",
@@ -168,8 +163,7 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1571508601936-6ca847b47ae4?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -181,7 +175,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-007",
+    "id": "007",
     "name": "Novotel Goa",
     "location": "Goa",
     "address": "6 minutes walk to central point, Goa",
@@ -200,8 +194,7 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1595526051245-4506e0005bd0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -213,7 +206,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-008",
+    "id": "008",
     "name": "Trident Udaipur",
     "location": "Udaipur",
     "address": "10 minutes walk to central point, Udaipur",
@@ -229,8 +222,7 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1598928636135-d146006ff4be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -242,7 +234,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-009",
+    "id": "009",
     "name": "Trident Chennai",
     "location": "Chennai",
     "address": "1 minutes walk to central point, Chennai",
@@ -256,8 +248,7 @@
     ],
     "highlights": ["Friendly staff", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
-      "assets/images/hotel1-1.jpg",
+      "https://images.unsplash.com/photo-1612152605347-f93296cb657d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
     ],
@@ -269,7 +260,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-010",
+    "id": "010",
     "name": "The Oberoi Kolkata",
     "location": "Kolkata",
     "address": "4 minutes walk to central point, Kolkata",
@@ -283,7 +274,6 @@
     ],
     "highlights": ["Friendly staff", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -296,7 +286,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-011",
+    "id": "011",
     "name": "ITC Grand Udaipur",
     "location": "Udaipur",
     "address": "3 minutes walk to central point, Udaipur",
@@ -307,7 +297,6 @@
     "offers": ["Flat 15% off for members"],
     "highlights": ["Friendly staff", "Swimming pool available"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -320,7 +309,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-012",
+    "id": "012",
     "name": "Novotel Delhi",
     "location": "Delhi",
     "address": "6 minutes walk to central point, Delhi",
@@ -335,7 +324,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -348,7 +336,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-013",
+    "id": "013",
     "name": "The Park Pune",
     "location": "Pune",
     "address": "1 minutes walk to central point, Pune",
@@ -363,7 +351,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -376,7 +363,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-014",
+    "id": "014",
     "name": "The Park Hyderabad",
     "location": "Hyderabad",
     "address": "5 minutes walk to central point, Hyderabad",
@@ -394,7 +381,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -407,7 +393,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-015",
+    "id": "015",
     "name": "Holiday Inn Goa",
     "location": "Goa",
     "address": "4 minutes walk to central point, Goa",
@@ -421,7 +407,6 @@
     ],
     "highlights": ["Complimentary buffet", "Friendly staff"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -434,7 +419,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-016",
+    "id": "016",
     "name": "Marriott Resort Kolkata",
     "location": "Kolkata",
     "address": "7 minutes walk to central point, Kolkata",
@@ -450,7 +435,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -463,7 +447,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-017",
+    "id": "017",
     "name": "The Park Bangalore",
     "location": "Bangalore",
     "address": "7 minutes walk to central point, Bangalore",
@@ -479,7 +463,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -492,7 +475,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-018",
+    "id": "018",
     "name": "Radisson Blu Bangalore",
     "location": "Bangalore",
     "address": "8 minutes walk to central point, Bangalore",
@@ -503,7 +486,6 @@
     "offers": ["Free breakfast included", "Flat 15% off for members"],
     "highlights": ["Swimming pool available", "24/7 room service"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -516,7 +498,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-019",
+    "id": "019",
     "name": "Marriott Resort Chennai",
     "location": "Chennai",
     "address": "1 minutes walk to central point, Chennai",
@@ -531,7 +513,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -544,7 +525,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-020",
+    "id": "020",
     "name": "ITC Grand Udaipur",
     "location": "Udaipur",
     "address": "8 minutes walk to central point, Udaipur",
@@ -560,7 +541,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -573,7 +553,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-021",
+    "id": "021",
     "name": "The Park Mumbai",
     "location": "Mumbai",
     "address": "4 minutes walk to central point, Mumbai",
@@ -589,7 +569,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -602,7 +581,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-022",
+    "id": "022",
     "name": "Trident Udaipur",
     "location": "Udaipur",
     "address": "6 minutes walk to central point, Udaipur",
@@ -620,7 +599,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -633,7 +611,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-023",
+    "id": "023",
     "name": "Taj Palace Delhi",
     "location": "Delhi",
     "address": "10 minutes walk to central point, Delhi",
@@ -644,7 +622,6 @@
     "offers": ["20% off on session of Spa"],
     "highlights": ["Friendly staff", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -657,7 +634,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-024",
+    "id": "024",
     "name": "Trident Jaipur",
     "location": "Jaipur",
     "address": "2 minutes walk to central point, Jaipur",
@@ -673,7 +650,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -686,7 +662,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-025",
+    "id": "025",
     "name": "Radisson Blu Kolkata",
     "location": "Kolkata",
     "address": "1 minutes walk to central point, Kolkata",
@@ -700,7 +676,6 @@
     ],
     "highlights": ["Friendly staff", "24/7 room service"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -713,7 +688,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-026",
+    "id": "026",
     "name": "Marriott Resort Hyderabad",
     "location": "Hyderabad",
     "address": "1 minutes walk to central point, Hyderabad",
@@ -728,7 +703,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -741,7 +715,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-027",
+    "id": "027",
     "name": "Lemon Tree Premier Pune",
     "location": "Pune",
     "address": "7 minutes walk to central point, Pune",
@@ -755,7 +729,6 @@
     ],
     "highlights": ["Near metro station", "Swimming pool available"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -768,7 +741,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-028",
+    "id": "028",
     "name": "Lemon Tree Premier Mumbai",
     "location": "Mumbai",
     "address": "2 minutes walk to central point, Mumbai",
@@ -783,7 +756,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -796,7 +768,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-029",
+    "id": "029",
     "name": "Lemon Tree Premier Pune",
     "location": "Pune",
     "address": "5 minutes walk to central point, Pune",
@@ -811,7 +783,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -824,7 +795,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-030",
+    "id": "030",
     "name": "The Park Mumbai",
     "location": "Mumbai",
     "address": "2 minutes walk to central point, Mumbai",
@@ -842,7 +813,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -855,7 +825,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-031",
+    "id": "031",
     "name": "The Park Jaipur",
     "location": "Jaipur",
     "address": "6 minutes walk to central point, Jaipur",
@@ -866,7 +836,6 @@
     "offers": ["20% off on session of Spa"],
     "highlights": ["24/7 room service", "Friendly staff", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -879,7 +848,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-032",
+    "id": "032",
     "name": "ITC Grand Goa",
     "location": "Goa",
     "address": "1 minutes walk to central point, Goa",
@@ -897,7 +866,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -910,7 +878,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-033",
+    "id": "033",
     "name": "The Park Bangalore",
     "location": "Bangalore",
     "address": "3 minutes walk to central point, Bangalore",
@@ -926,7 +894,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -939,7 +906,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-034",
+    "id": "034",
     "name": "Holiday Inn Hyderabad",
     "location": "Hyderabad",
     "address": "9 minutes walk to central point, Hyderabad",
@@ -953,7 +920,6 @@
     ],
     "highlights": ["Friendly staff", "Near metro station", "24/7 room service"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -966,7 +932,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-035",
+    "id": "035",
     "name": "Novotel Goa",
     "location": "Goa",
     "address": "10 minutes walk to central point, Goa",
@@ -984,7 +950,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -997,7 +962,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-036",
+    "id": "036",
     "name": "The Park Bangalore",
     "location": "Bangalore",
     "address": "4 minutes walk to central point, Bangalore",
@@ -1012,7 +977,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1025,7 +989,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-037",
+    "id": "037",
     "name": "Taj Palace Chennai",
     "location": "Chennai",
     "address": "1 minutes walk to central point, Chennai",
@@ -1041,7 +1005,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1054,7 +1017,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-038",
+    "id": "038",
     "name": "Novotel Bangalore",
     "location": "Bangalore",
     "address": "10 minutes walk to central point, Bangalore",
@@ -1070,7 +1033,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1083,7 +1045,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-039",
+    "id": "039",
     "name": "Lemon Tree Premier Bangalore",
     "location": "Bangalore",
     "address": "6 minutes walk to central point, Bangalore",
@@ -1102,7 +1064,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1115,7 +1076,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-040",
+    "id": "040",
     "name": "Radisson Blu Bangalore",
     "location": "Bangalore",
     "address": "4 minutes walk to central point, Bangalore",
@@ -1130,7 +1091,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1143,7 +1103,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-041",
+    "id": "041",
     "name": "Radisson Blu Jaipur",
     "location": "Jaipur",
     "address": "5 minutes walk to central point, Jaipur",
@@ -1162,7 +1122,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1175,7 +1134,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-042",
+    "id": "042",
     "name": "Trident Jaipur",
     "location": "Jaipur",
     "address": "10 minutes walk to central point, Jaipur",
@@ -1189,7 +1148,6 @@
     ],
     "highlights": ["24/7 room service", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1202,7 +1160,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-043",
+    "id": "043",
     "name": "Holiday Inn Jaipur",
     "location": "Jaipur",
     "address": "1 minutes walk to central point, Jaipur",
@@ -1217,7 +1175,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1230,7 +1187,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-044",
+    "id": "044",
     "name": "Holiday Inn Kolkata",
     "location": "Kolkata",
     "address": "9 minutes walk to central point, Kolkata",
@@ -1241,7 +1198,6 @@
     "offers": ["20% off on session of Spa"],
     "highlights": ["24/7 room service", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1254,7 +1210,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-045",
+    "id": "045",
     "name": "Radisson Blu Bangalore",
     "location": "Bangalore",
     "address": "1 minutes walk to central point, Bangalore",
@@ -1272,7 +1228,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1285,7 +1240,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-046",
+    "id": "046",
     "name": "Holiday Inn Mumbai",
     "location": "Mumbai",
     "address": "3 minutes walk to central point, Mumbai",
@@ -1300,7 +1255,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1313,7 +1267,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-047",
+    "id": "047",
     "name": "The Oberoi Mumbai",
     "location": "Mumbai",
     "address": "3 minutes walk to central point, Mumbai",
@@ -1324,7 +1278,6 @@
     "offers": ["20% off on session of Spa"],
     "highlights": ["Swimming pool available", "24/7 room service"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1337,7 +1290,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-048",
+    "id": "048",
     "name": "Holiday Inn Bangalore",
     "location": "Bangalore",
     "address": "5 minutes walk to central point, Bangalore",
@@ -1355,7 +1308,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1368,7 +1320,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-049",
+    "id": "049",
     "name": "The Oberoi Hyderabad",
     "location": "Hyderabad",
     "address": "9 minutes walk to central point, Hyderabad",
@@ -1383,7 +1335,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1396,7 +1347,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-050",
+    "id": "050",
     "name": "Marriott Resort Kolkata",
     "location": "Kolkata",
     "address": "7 minutes walk to central point, Kolkata",
@@ -1407,7 +1358,6 @@
     "offers": ["Free breakfast included", "Flat 15% off for members"],
     "highlights": ["Complimentary buffet", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1420,7 +1370,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-051",
+    "id": "051",
     "name": "The Park Udaipur",
     "location": "Udaipur",
     "address": "6 minutes walk to central point, Udaipur",
@@ -1436,7 +1386,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1449,7 +1398,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-052",
+    "id": "052",
     "name": "Radisson Blu Chennai",
     "location": "Chennai",
     "address": "10 minutes walk to central point, Chennai",
@@ -1464,7 +1413,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1477,7 +1425,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-053",
+    "id": "053",
     "name": "Lemon Tree Premier Kolkata",
     "location": "Kolkata",
     "address": "8 minutes walk to central point, Kolkata",
@@ -1496,7 +1444,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1509,7 +1456,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-054",
+    "id": "054",
     "name": "Marriott Resort Goa",
     "location": "Goa",
     "address": "5 minutes walk to central point, Goa",
@@ -1525,7 +1472,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1538,7 +1484,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-055",
+    "id": "055",
     "name": "The Oberoi Jaipur",
     "location": "Jaipur",
     "address": "4 minutes walk to central point, Jaipur",
@@ -1553,7 +1499,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1566,7 +1511,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-056",
+    "id": "056",
     "name": "Novotel Mumbai",
     "location": "Mumbai",
     "address": "6 minutes walk to central point, Mumbai",
@@ -1582,7 +1527,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1595,7 +1539,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-057",
+    "id": "057",
     "name": "Radisson Blu Mumbai",
     "location": "Mumbai",
     "address": "10 minutes walk to central point, Mumbai",
@@ -1609,7 +1553,6 @@
     ],
     "highlights": ["24/7 room service", "Complimentary buffet"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1622,7 +1565,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-058",
+    "id": "058",
     "name": "Trident Goa",
     "location": "Goa",
     "address": "6 minutes walk to central point, Goa",
@@ -1638,7 +1581,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1651,7 +1593,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-059",
+    "id": "059",
     "name": "Holiday Inn Hyderabad",
     "location": "Hyderabad",
     "address": "9 minutes walk to central point, Hyderabad",
@@ -1666,7 +1608,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1679,7 +1620,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-060",
+    "id": "060",
     "name": "Marriott Resort Hyderabad",
     "location": "Hyderabad",
     "address": "9 minutes walk to central point, Hyderabad",
@@ -1695,7 +1636,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1708,7 +1648,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-061",
+    "id": "061",
     "name": "The Park Hyderabad",
     "location": "Hyderabad",
     "address": "3 minutes walk to central point, Hyderabad",
@@ -1719,7 +1659,6 @@
     "offers": ["Free breakfast included", "Flat 15% off for members"],
     "highlights": ["Near metro station", "Complimentary buffet"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1732,7 +1671,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-062",
+    "id": "062",
     "name": "Marriott Resort Hyderabad",
     "location": "Hyderabad",
     "address": "2 minutes walk to central point, Hyderabad",
@@ -1748,7 +1687,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1761,7 +1699,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-063",
+    "id": "063",
     "name": "Taj Palace Goa",
     "location": "Goa",
     "address": "7 minutes walk to central point, Goa",
@@ -1777,7 +1715,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1790,7 +1727,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-064",
+    "id": "064",
     "name": "Marriott Resort Chennai",
     "location": "Chennai",
     "address": "3 minutes walk to central point, Chennai",
@@ -1805,7 +1742,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1818,7 +1754,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-065",
+    "id": "065",
     "name": "Lemon Tree Premier Pune",
     "location": "Pune",
     "address": "1 minutes walk to central point, Pune",
@@ -1832,7 +1768,6 @@
     ],
     "highlights": ["Swimming pool available", "Complimentary buffet"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1845,7 +1780,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-066",
+    "id": "066",
     "name": "Marriott Resort Delhi",
     "location": "Delhi",
     "address": "7 minutes walk to central point, Delhi",
@@ -1860,7 +1795,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1873,7 +1807,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-067",
+    "id": "067",
     "name": "The Park Goa",
     "location": "Goa",
     "address": "5 minutes walk to central point, Goa",
@@ -1889,7 +1823,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1902,7 +1835,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-068",
+    "id": "068",
     "name": "Radisson Blu Goa",
     "location": "Goa",
     "address": "7 minutes walk to central point, Goa",
@@ -1917,7 +1850,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1930,7 +1862,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-069",
+    "id": "069",
     "name": "Radisson Blu Pune",
     "location": "Pune",
     "address": "4 minutes walk to central point, Pune",
@@ -1945,7 +1877,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1958,7 +1889,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-070",
+    "id": "070",
     "name": "The Oberoi Hyderabad",
     "location": "Hyderabad",
     "address": "4 minutes walk to central point, Hyderabad",
@@ -1974,7 +1905,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -1987,7 +1917,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-071",
+    "id": "071",
     "name": "Lemon Tree Premier Kolkata",
     "location": "Kolkata",
     "address": "8 minutes walk to central point, Kolkata",
@@ -2003,7 +1933,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2016,7 +1945,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-072",
+    "id": "072",
     "name": "The Oberoi Mumbai",
     "location": "Mumbai",
     "address": "9 minutes walk to central point, Mumbai",
@@ -2032,7 +1961,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2045,7 +1973,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-073",
+    "id": "073",
     "name": "The Oberoi Hyderabad",
     "location": "Hyderabad",
     "address": "3 minutes walk to central point, Hyderabad",
@@ -2056,7 +1984,6 @@
     "offers": ["Free breakfast included"],
     "highlights": ["Complimentary buffet", "24/7 room service"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2069,7 +1996,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-074",
+    "id": "074",
     "name": "Trident Chennai",
     "location": "Chennai",
     "address": "6 minutes walk to central point, Chennai",
@@ -2080,7 +2007,6 @@
     "offers": ["20% off on session of Spa"],
     "highlights": ["Friendly staff", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2093,7 +2019,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-075",
+    "id": "075",
     "name": "Lemon Tree Premier Delhi",
     "location": "Delhi",
     "address": "5 minutes walk to central point, Delhi",
@@ -2107,7 +2033,6 @@
     ],
     "highlights": ["Complimentary buffet", "Swimming pool available"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2120,7 +2045,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-076",
+    "id": "076",
     "name": "ITC Grand Kolkata",
     "location": "Kolkata",
     "address": "3 minutes walk to central point, Kolkata",
@@ -2131,7 +2056,6 @@
     "offers": ["Flat 15% off for members"],
     "highlights": ["24/7 room service", "Complimentary buffet"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2144,7 +2068,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-077",
+    "id": "077",
     "name": "The Oberoi Delhi",
     "location": "Delhi",
     "address": "8 minutes walk to central point, Delhi",
@@ -2155,7 +2079,6 @@
     "offers": ["20% off on session of Spa", "Flat 15% off for members"],
     "highlights": ["Swimming pool available", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2168,7 +2091,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-078",
+    "id": "078",
     "name": "Radisson Blu Udaipur",
     "location": "Udaipur",
     "address": "6 minutes walk to central point, Udaipur",
@@ -2186,7 +2109,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2199,7 +2121,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-079",
+    "id": "079",
     "name": "Taj Palace Kolkata",
     "location": "Kolkata",
     "address": "2 minutes walk to central point, Kolkata",
@@ -2210,7 +2132,6 @@
     "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
     "highlights": ["Swimming pool available", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2223,7 +2144,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-080",
+    "id": "080",
     "name": "The Park Jaipur",
     "location": "Jaipur",
     "address": "2 minutes walk to central point, Jaipur",
@@ -2239,7 +2160,6 @@
       "Friendly staff"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2252,7 +2172,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-081",
+    "id": "081",
     "name": "Radisson Blu Goa",
     "location": "Goa",
     "address": "7 minutes walk to central point, Goa",
@@ -2268,7 +2188,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2281,7 +2200,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-082",
+    "id": "082",
     "name": "Trident Mumbai",
     "location": "Mumbai",
     "address": "3 minutes walk to central point, Mumbai",
@@ -2296,7 +2215,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2309,7 +2227,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-083",
+    "id": "083",
     "name": "ITC Grand Jaipur",
     "location": "Jaipur",
     "address": "7 minutes walk to central point, Jaipur",
@@ -2325,7 +2243,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2338,7 +2255,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-084",
+    "id": "084",
     "name": "Trident Chennai",
     "location": "Chennai",
     "address": "8 minutes walk to central point, Chennai",
@@ -2353,7 +2270,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2366,7 +2282,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-085",
+    "id": "085",
     "name": "Novotel Goa",
     "location": "Goa",
     "address": "2 minutes walk to central point, Goa",
@@ -2377,7 +2293,6 @@
     "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
     "highlights": ["Near metro station", "24/7 room service", "Friendly staff"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2390,7 +2305,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-086",
+    "id": "086",
     "name": "The Park Chennai",
     "location": "Chennai",
     "address": "4 minutes walk to central point, Chennai",
@@ -2406,7 +2321,6 @@
       "Near metro station"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2419,7 +2333,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-087",
+    "id": "087",
     "name": "Holiday Inn Mumbai",
     "location": "Mumbai",
     "address": "4 minutes walk to central point, Mumbai",
@@ -2430,7 +2344,6 @@
     "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
     "highlights": ["Friendly staff", "24/7 room service", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2443,7 +2356,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-088",
+    "id": "088",
     "name": "The Oberoi Bangalore",
     "location": "Bangalore",
     "address": "1 minutes walk to central point, Bangalore",
@@ -2462,7 +2375,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2475,7 +2387,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-089",
+    "id": "089",
     "name": "ITC Grand Bangalore",
     "location": "Bangalore",
     "address": "3 minutes walk to central point, Bangalore",
@@ -2490,7 +2402,6 @@
       "Complimentary buffet"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2503,7 +2414,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-090",
+    "id": "090",
     "name": "The Oberoi Kolkata",
     "location": "Kolkata",
     "address": "10 minutes walk to central point, Kolkata",
@@ -2518,7 +2429,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2531,7 +2441,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-091",
+    "id": "091",
     "name": "The Park Udaipur",
     "location": "Udaipur",
     "address": "3 minutes walk to central point, Udaipur",
@@ -2542,7 +2452,6 @@
     "offers": ["20% off on session of Spa", "Free breakfast included"],
     "highlights": ["Friendly staff", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2555,7 +2464,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-092",
+    "id": "092",
     "name": "Novotel Mumbai",
     "location": "Mumbai",
     "address": "8 minutes walk to central point, Mumbai",
@@ -2571,7 +2480,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2584,7 +2492,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-093",
+    "id": "093",
     "name": "Radisson Blu Jaipur",
     "location": "Jaipur",
     "address": "3 minutes walk to central point, Jaipur",
@@ -2595,7 +2503,6 @@
     "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
     "highlights": ["24/7 room service", "Friendly staff", "Near metro station"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2608,7 +2515,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-094",
+    "id": "094",
     "name": "Novotel Hyderabad",
     "location": "Hyderabad",
     "address": "6 minutes walk to central point, Hyderabad",
@@ -2622,7 +2529,6 @@
     ],
     "highlights": ["Swimming pool available", "24/7 room service"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2635,7 +2541,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-095",
+    "id": "095",
     "name": "Taj Palace Goa",
     "location": "Goa",
     "address": "4 minutes walk to central point, Goa",
@@ -2651,7 +2557,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2664,7 +2569,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-096",
+    "id": "096",
     "name": "Radisson Blu Goa",
     "location": "Goa",
     "address": "2 minutes walk to central point, Goa",
@@ -2675,7 +2580,6 @@
     "offers": ["20% off on session of Spa"],
     "highlights": ["Near metro station", "24/7 room service"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2688,7 +2592,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-097",
+    "id": "097",
     "name": "The Oberoi Pune",
     "location": "Pune",
     "address": "9 minutes walk to central point, Pune",
@@ -2703,7 +2607,6 @@
       "24/7 room service"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2716,7 +2619,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-098",
+    "id": "098",
     "name": "Holiday Inn Chennai",
     "location": "Chennai",
     "address": "3 minutes walk to central point, Chennai",
@@ -2727,7 +2630,6 @@
     "offers": ["20% off on session of Spa"],
     "highlights": ["24/7 room service", "Complimentary buffet"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2740,7 +2642,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-099",
+    "id": "099",
     "name": "ITC Grand Bangalore",
     "location": "Bangalore",
     "address": "9 minutes walk to central point, Bangalore",
@@ -2751,7 +2653,6 @@
     "offers": ["Free breakfast included"],
     "highlights": ["Complimentary buffet", "Swimming pool available"],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
@@ -2764,7 +2665,7 @@
     "ctaText": "Login to Book Now & Pay Later!"
   },
   {
-    "id": "hotel-100",
+    "id": "100",
     "name": "The Oberoi Kolkata",
     "location": "Kolkata",
     "address": "10 minutes walk to central point, Kolkata",
@@ -2780,7 +2681,6 @@
       "Swimming pool available"
     ],
     "images": [
-      "assets/images/hotel1.jpg",
       "assets/images/hotel1-1.jpg",
       "assets/images/hotel1-2.jpg",
       "assets/images/hotel1-3.jpg"
