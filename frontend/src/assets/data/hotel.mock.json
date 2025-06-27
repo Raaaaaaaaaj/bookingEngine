@@ -1,0 +1,2795 @@
+[
+  {
+    "id": "hotel-001",
+    "name": "Taj Palace Mumbai",
+    "location": "Mumbai",
+    "address": "8 minutes walk to central point, Mumbai",
+    "rating": 3.9,
+    "ratingLabel": "Very Good",
+    "totalRatings": 11055,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "24/7 room service",
+      "Complimentary buffet",
+      "Swimming pool available",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8911,
+      "discounted": 7102,
+      "taxesAndFees": 2079
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-002",
+    "name": "Trident Kolkata",
+    "location": "Kolkata",
+    "address": "8 minutes walk to central point, Kolkata",
+    "rating": 3.7,
+    "ratingLabel": "Very Good",
+    "totalRatings": 4910,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included", "Flat 15% off for members"],
+    "highlights": [
+      "Near metro station",
+      "24/7 room service",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8022,
+      "discounted": 6240,
+      "taxesAndFees": 1602
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-003",
+    "name": "Novotel Hyderabad",
+    "location": "Hyderabad",
+    "address": "10 minutes walk to central point, Hyderabad",
+    "rating": 5.0,
+    "ratingLabel": "Superb",
+    "totalRatings": 2621,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members", "20% off on session of Spa"],
+    "highlights": [
+      "Swimming pool available",
+      "24/7 room service",
+      "Complimentary buffet",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9006,
+      "discounted": 7403,
+      "taxesAndFees": 1923
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-004",
+    "name": "Trident Delhi",
+    "location": "Delhi",
+    "address": "3 minutes walk to central point, Delhi",
+    "rating": 3.8,
+    "ratingLabel": "Very Good",
+    "totalRatings": 12940,
+    "isCoupleFriendly": true,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "Flat 15% off for members"
+    ],
+    "highlights": [
+      "Friendly staff",
+      "Near metro station",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7874,
+      "discounted": 5624,
+      "taxesAndFees": 2877
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-005",
+    "name": "Trident Mumbai",
+    "location": "Mumbai",
+    "address": "7 minutes walk to central point, Mumbai",
+    "rating": 4.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 4827,
+    "isCoupleFriendly": false,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "20% off on session of Spa"
+    ],
+    "highlights": [
+      "Swimming pool available",
+      "Near metro station",
+      "Complimentary buffet",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11968,
+      "discounted": 10236,
+      "taxesAndFees": 2671
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-006",
+    "name": "ITC Grand Kolkata",
+    "location": "Kolkata",
+    "address": "5 minutes walk to central point, Kolkata",
+    "rating": 4.3,
+    "ratingLabel": "Superb",
+    "totalRatings": 4279,
+    "isCoupleFriendly": true,
+    "offers": [
+      "Free breakfast included",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "Friendly staff",
+      "Near metro station",
+      "Swimming pool available",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10718,
+      "discounted": 9672,
+      "taxesAndFees": 1078
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-007",
+    "name": "Novotel Goa",
+    "location": "Goa",
+    "address": "6 minutes walk to central point, Goa",
+    "rating": 3.8,
+    "ratingLabel": "Very Good",
+    "totalRatings": 1947,
+    "isCoupleFriendly": true,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "Flat 15% off for members"
+    ],
+    "highlights": [
+      "Swimming pool available",
+      "Complimentary buffet",
+      "Near metro station",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7734,
+      "discounted": 7166,
+      "taxesAndFees": 2157
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-008",
+    "name": "Trident Udaipur",
+    "location": "Udaipur",
+    "address": "10 minutes walk to central point, Udaipur",
+    "rating": 5.0,
+    "ratingLabel": "Superb",
+    "totalRatings": 10983,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included", "20% off on session of Spa"],
+    "highlights": [
+      "Swimming pool available",
+      "Near metro station",
+      "24/7 room service",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11568,
+      "discounted": 10120,
+      "taxesAndFees": 1563
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-009",
+    "name": "Trident Chennai",
+    "location": "Chennai",
+    "address": "1 minutes walk to central point, Chennai",
+    "rating": 4.6,
+    "ratingLabel": "Superb",
+    "totalRatings": 14788,
+    "isCoupleFriendly": true,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["Friendly staff", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8647,
+      "discounted": 6562,
+      "taxesAndFees": 2558
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-010",
+    "name": "The Oberoi Kolkata",
+    "location": "Kolkata",
+    "address": "4 minutes walk to central point, Kolkata",
+    "rating": 4.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 14458,
+    "isCoupleFriendly": false,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "Flat 15% off for members"
+    ],
+    "highlights": ["Friendly staff", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7701,
+      "discounted": 7083,
+      "taxesAndFees": 1084
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-011",
+    "name": "ITC Grand Udaipur",
+    "location": "Udaipur",
+    "address": "3 minutes walk to central point, Udaipur",
+    "rating": 4.8,
+    "ratingLabel": "Excellent",
+    "totalRatings": 12404,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members"],
+    "highlights": ["Friendly staff", "Swimming pool available"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6437,
+      "discounted": 4544,
+      "taxesAndFees": 1545
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-012",
+    "name": "Novotel Delhi",
+    "location": "Delhi",
+    "address": "6 minutes walk to central point, Delhi",
+    "rating": 4.1,
+    "ratingLabel": "Excellent",
+    "totalRatings": 7628,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": [
+      "Near metro station",
+      "24/7 room service",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6263,
+      "discounted": 3978,
+      "taxesAndFees": 1915
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-013",
+    "name": "The Park Pune",
+    "location": "Pune",
+    "address": "1 minutes walk to central point, Pune",
+    "rating": 3.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 7281,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Complimentary buffet",
+      "Friendly staff",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11225,
+      "discounted": 10546,
+      "taxesAndFees": 1050
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-014",
+    "name": "The Park Hyderabad",
+    "location": "Hyderabad",
+    "address": "5 minutes walk to central point, Hyderabad",
+    "rating": 4.4,
+    "ratingLabel": "Excellent",
+    "totalRatings": 10360,
+    "isCoupleFriendly": true,
+    "offers": [
+      "Flat 15% off for members",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "Near metro station",
+      "Complimentary buffet",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11715,
+      "discounted": 10083,
+      "taxesAndFees": 1715
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-015",
+    "name": "Holiday Inn Goa",
+    "location": "Goa",
+    "address": "4 minutes walk to central point, Goa",
+    "rating": 4.2,
+    "ratingLabel": "Superb",
+    "totalRatings": 3946,
+    "isCoupleFriendly": false,
+    "offers": [
+      "Flat 15% off for members",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["Complimentary buffet", "Friendly staff"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10855,
+      "discounted": 9307,
+      "taxesAndFees": 2681
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-016",
+    "name": "Marriott Resort Kolkata",
+    "location": "Kolkata",
+    "address": "7 minutes walk to central point, Kolkata",
+    "rating": 4.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 14326,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa", "Free breakfast included"],
+    "highlights": [
+      "Near metro station",
+      "24/7 room service",
+      "Swimming pool available",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6880,
+      "discounted": 4453,
+      "taxesAndFees": 2385
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-017",
+    "name": "The Park Bangalore",
+    "location": "Bangalore",
+    "address": "7 minutes walk to central point, Bangalore",
+    "rating": 3.9,
+    "ratingLabel": "Excellent",
+    "totalRatings": 4258,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": [
+      "Swimming pool available",
+      "Near metro station",
+      "Complimentary buffet",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10350,
+      "discounted": 9518,
+      "taxesAndFees": 1122
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-018",
+    "name": "Radisson Blu Bangalore",
+    "location": "Bangalore",
+    "address": "8 minutes walk to central point, Bangalore",
+    "rating": 4.7,
+    "ratingLabel": "Very Good",
+    "totalRatings": 14428,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included", "Flat 15% off for members"],
+    "highlights": ["Swimming pool available", "24/7 room service"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9745,
+      "discounted": 7984,
+      "taxesAndFees": 2115
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-019",
+    "name": "Marriott Resort Chennai",
+    "location": "Chennai",
+    "address": "1 minutes walk to central point, Chennai",
+    "rating": 3.9,
+    "ratingLabel": "Excellent",
+    "totalRatings": 11382,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": [
+      "24/7 room service",
+      "Near metro station",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10782,
+      "discounted": 9443,
+      "taxesAndFees": 2811
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-020",
+    "name": "ITC Grand Udaipur",
+    "location": "Udaipur",
+    "address": "8 minutes walk to central point, Udaipur",
+    "rating": 4.1,
+    "ratingLabel": "Very Good",
+    "totalRatings": 11391,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Complimentary buffet",
+      "Near metro station",
+      "Friendly staff",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6464,
+      "discounted": 5325,
+      "taxesAndFees": 2812
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-021",
+    "name": "The Park Mumbai",
+    "location": "Mumbai",
+    "address": "4 minutes walk to central point, Mumbai",
+    "rating": 4.6,
+    "ratingLabel": "Very Good",
+    "totalRatings": 6566,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "Complimentary buffet",
+      "Swimming pool available",
+      "Near metro station",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9163,
+      "discounted": 7259,
+      "taxesAndFees": 2230
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-022",
+    "name": "Trident Udaipur",
+    "location": "Udaipur",
+    "address": "6 minutes walk to central point, Udaipur",
+    "rating": 4.7,
+    "ratingLabel": "Excellent",
+    "totalRatings": 8318,
+    "isCoupleFriendly": true,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "24/7 room service",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9477,
+      "discounted": 8010,
+      "taxesAndFees": 1063
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-023",
+    "name": "Taj Palace Delhi",
+    "location": "Delhi",
+    "address": "10 minutes walk to central point, Delhi",
+    "rating": 3.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 13933,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": ["Friendly staff", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8309,
+      "discounted": 6694,
+      "taxesAndFees": 1325
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-024",
+    "name": "Trident Jaipur",
+    "location": "Jaipur",
+    "address": "2 minutes walk to central point, Jaipur",
+    "rating": 4.0,
+    "ratingLabel": "Superb",
+    "totalRatings": 12289,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included", "20% off on session of Spa"],
+    "highlights": [
+      "Swimming pool available",
+      "Complimentary buffet",
+      "Near metro station",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6169,
+      "discounted": 5490,
+      "taxesAndFees": 2931
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-025",
+    "name": "Radisson Blu Kolkata",
+    "location": "Kolkata",
+    "address": "1 minutes walk to central point, Kolkata",
+    "rating": 4.0,
+    "ratingLabel": "Very Good",
+    "totalRatings": 10706,
+    "isCoupleFriendly": false,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "Flat 15% off for members"
+    ],
+    "highlights": ["Friendly staff", "24/7 room service"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6334,
+      "discounted": 3887,
+      "taxesAndFees": 2101
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-026",
+    "name": "Marriott Resort Hyderabad",
+    "location": "Hyderabad",
+    "address": "1 minutes walk to central point, Hyderabad",
+    "rating": 4.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 13596,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Friendly staff",
+      "24/7 room service",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11360,
+      "discounted": 9496,
+      "taxesAndFees": 2929
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-027",
+    "name": "Lemon Tree Premier Pune",
+    "location": "Pune",
+    "address": "7 minutes walk to central point, Pune",
+    "rating": 3.9,
+    "ratingLabel": "Excellent",
+    "totalRatings": 2582,
+    "isCoupleFriendly": false,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["Near metro station", "Swimming pool available"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11857,
+      "discounted": 11095,
+      "taxesAndFees": 1932
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-028",
+    "name": "Lemon Tree Premier Mumbai",
+    "location": "Mumbai",
+    "address": "2 minutes walk to central point, Mumbai",
+    "rating": 4.7,
+    "ratingLabel": "Excellent",
+    "totalRatings": 13414,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "Near metro station",
+      "24/7 room service",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7479,
+      "discounted": 6026,
+      "taxesAndFees": 2777
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-029",
+    "name": "Lemon Tree Premier Pune",
+    "location": "Pune",
+    "address": "5 minutes walk to central point, Pune",
+    "rating": 4.3,
+    "ratingLabel": "Superb",
+    "totalRatings": 7499,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa"],
+    "highlights": [
+      "Complimentary buffet",
+      "24/7 room service",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7047,
+      "discounted": 5127,
+      "taxesAndFees": 1039
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-030",
+    "name": "The Park Mumbai",
+    "location": "Mumbai",
+    "address": "2 minutes walk to central point, Mumbai",
+    "rating": 4.6,
+    "ratingLabel": "Excellent",
+    "totalRatings": 9802,
+    "isCoupleFriendly": true,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "Free breakfast included"
+    ],
+    "highlights": [
+      "Near metro station",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9315,
+      "discounted": 7089,
+      "taxesAndFees": 2343
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-031",
+    "name": "The Park Jaipur",
+    "location": "Jaipur",
+    "address": "6 minutes walk to central point, Jaipur",
+    "rating": 3.9,
+    "ratingLabel": "Very Good",
+    "totalRatings": 1784,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": ["24/7 room service", "Friendly staff", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10722,
+      "discounted": 10139,
+      "taxesAndFees": 1778
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-032",
+    "name": "ITC Grand Goa",
+    "location": "Goa",
+    "address": "1 minutes walk to central point, Goa",
+    "rating": 4.1,
+    "ratingLabel": "Superb",
+    "totalRatings": 7947,
+    "isCoupleFriendly": false,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "Flat 15% off for members"
+    ],
+    "highlights": [
+      "Near metro station",
+      "Complimentary buffet",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10759,
+      "discounted": 9116,
+      "taxesAndFees": 1026
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-033",
+    "name": "The Park Bangalore",
+    "location": "Bangalore",
+    "address": "3 minutes walk to central point, Bangalore",
+    "rating": 3.6,
+    "ratingLabel": "Very Good",
+    "totalRatings": 14136,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "Friendly staff",
+      "Near metro station",
+      "24/7 room service",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8696,
+      "discounted": 7472,
+      "taxesAndFees": 1527
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-034",
+    "name": "Holiday Inn Hyderabad",
+    "location": "Hyderabad",
+    "address": "9 minutes walk to central point, Hyderabad",
+    "rating": 4.5,
+    "ratingLabel": "Very Good",
+    "totalRatings": 2127,
+    "isCoupleFriendly": true,
+    "offers": [
+      "Flat 15% off for members",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["Friendly staff", "Near metro station", "24/7 room service"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6748,
+      "discounted": 6177,
+      "taxesAndFees": 2195
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-035",
+    "name": "Novotel Goa",
+    "location": "Goa",
+    "address": "10 minutes walk to central point, Goa",
+    "rating": 4.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 3459,
+    "isCoupleFriendly": false,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "20% off on session of Spa"
+    ],
+    "highlights": [
+      "Friendly staff",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6915,
+      "discounted": 6172,
+      "taxesAndFees": 2491
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-036",
+    "name": "The Park Bangalore",
+    "location": "Bangalore",
+    "address": "4 minutes walk to central point, Bangalore",
+    "rating": 4.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 4939,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Friendly staff",
+      "Swimming pool available",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10552,
+      "discounted": 9466,
+      "taxesAndFees": 1547
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-037",
+    "name": "Taj Palace Chennai",
+    "location": "Chennai",
+    "address": "1 minutes walk to central point, Chennai",
+    "rating": 4.6,
+    "ratingLabel": "Superb",
+    "totalRatings": 12235,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": [
+      "Near metro station",
+      "Swimming pool available",
+      "24/7 room service",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8345,
+      "discounted": 7753,
+      "taxesAndFees": 2325
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-038",
+    "name": "Novotel Bangalore",
+    "location": "Bangalore",
+    "address": "10 minutes walk to central point, Bangalore",
+    "rating": 4.7,
+    "ratingLabel": "Excellent",
+    "totalRatings": 11857,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Near metro station",
+      "Friendly staff",
+      "24/7 room service",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9804,
+      "discounted": 8287,
+      "taxesAndFees": 1667
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-039",
+    "name": "Lemon Tree Premier Bangalore",
+    "location": "Bangalore",
+    "address": "6 minutes walk to central point, Bangalore",
+    "rating": 3.8,
+    "ratingLabel": "Superb",
+    "totalRatings": 5110,
+    "isCoupleFriendly": true,
+    "offers": [
+      "Flat 15% off for members",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "Friendly staff",
+      "24/7 room service",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7249,
+      "discounted": 5094,
+      "taxesAndFees": 2569
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-040",
+    "name": "Radisson Blu Bangalore",
+    "location": "Bangalore",
+    "address": "4 minutes walk to central point, Bangalore",
+    "rating": 4.1,
+    "ratingLabel": "Excellent",
+    "totalRatings": 3799,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": [
+      "Near metro station",
+      "24/7 room service",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7427,
+      "discounted": 6667,
+      "taxesAndFees": 1747
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-041",
+    "name": "Radisson Blu Jaipur",
+    "location": "Jaipur",
+    "address": "5 minutes walk to central point, Jaipur",
+    "rating": 3.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 10395,
+    "isCoupleFriendly": false,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "24/7 room service",
+      "Complimentary buffet",
+      "Friendly staff",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8874,
+      "discounted": 6422,
+      "taxesAndFees": 2662
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-042",
+    "name": "Trident Jaipur",
+    "location": "Jaipur",
+    "address": "10 minutes walk to central point, Jaipur",
+    "rating": 4.9,
+    "ratingLabel": "Excellent",
+    "totalRatings": 3750,
+    "isCoupleFriendly": true,
+    "offers": [
+      "Flat 15% off for members",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["24/7 room service", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7589,
+      "discounted": 5256,
+      "taxesAndFees": 1135
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-043",
+    "name": "Holiday Inn Jaipur",
+    "location": "Jaipur",
+    "address": "1 minutes walk to central point, Jaipur",
+    "rating": 4.8,
+    "ratingLabel": "Superb",
+    "totalRatings": 10801,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members", "Free breakfast included"],
+    "highlights": [
+      "Swimming pool available",
+      "24/7 room service",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8247,
+      "discounted": 6831,
+      "taxesAndFees": 1283
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-044",
+    "name": "Holiday Inn Kolkata",
+    "location": "Kolkata",
+    "address": "9 minutes walk to central point, Kolkata",
+    "rating": 4.6,
+    "ratingLabel": "Superb",
+    "totalRatings": 13234,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": ["24/7 room service", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6230,
+      "discounted": 4986,
+      "taxesAndFees": 1911
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-045",
+    "name": "Radisson Blu Bangalore",
+    "location": "Bangalore",
+    "address": "1 minutes walk to central point, Bangalore",
+    "rating": 4.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 2238,
+    "isCoupleFriendly": true,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "Free breakfast included"
+    ],
+    "highlights": [
+      "Complimentary buffet",
+      "Friendly staff",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8399,
+      "discounted": 6277,
+      "taxesAndFees": 1098
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-046",
+    "name": "Holiday Inn Mumbai",
+    "location": "Mumbai",
+    "address": "3 minutes walk to central point, Mumbai",
+    "rating": 3.7,
+    "ratingLabel": "Very Good",
+    "totalRatings": 10873,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "24/7 room service",
+      "Friendly staff",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11150,
+      "discounted": 8977,
+      "taxesAndFees": 1533
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-047",
+    "name": "The Oberoi Mumbai",
+    "location": "Mumbai",
+    "address": "3 minutes walk to central point, Mumbai",
+    "rating": 4.9,
+    "ratingLabel": "Excellent",
+    "totalRatings": 6059,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": ["Swimming pool available", "24/7 room service"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10418,
+      "discounted": 8309,
+      "taxesAndFees": 2367
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-048",
+    "name": "Holiday Inn Bangalore",
+    "location": "Bangalore",
+    "address": "5 minutes walk to central point, Bangalore",
+    "rating": 3.6,
+    "ratingLabel": "Superb",
+    "totalRatings": 1745,
+    "isCoupleFriendly": false,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "Near metro station",
+      "Friendly staff",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7474,
+      "discounted": 6871,
+      "taxesAndFees": 2156
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-049",
+    "name": "The Oberoi Hyderabad",
+    "location": "Hyderabad",
+    "address": "9 minutes walk to central point, Hyderabad",
+    "rating": 3.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 10507,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members", "20% off on session of Spa"],
+    "highlights": [
+      "Swimming pool available",
+      "Complimentary buffet",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7459,
+      "discounted": 6435,
+      "taxesAndFees": 2128
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-050",
+    "name": "Marriott Resort Kolkata",
+    "location": "Kolkata",
+    "address": "7 minutes walk to central point, Kolkata",
+    "rating": 4.9,
+    "ratingLabel": "Excellent",
+    "totalRatings": 3882,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included", "Flat 15% off for members"],
+    "highlights": ["Complimentary buffet", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8833,
+      "discounted": 7825,
+      "taxesAndFees": 1155
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-051",
+    "name": "The Park Udaipur",
+    "location": "Udaipur",
+    "address": "6 minutes walk to central point, Udaipur",
+    "rating": 4.0,
+    "ratingLabel": "Excellent",
+    "totalRatings": 5040,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": [
+      "24/7 room service",
+      "Swimming pool available",
+      "Friendly staff",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8832,
+      "discounted": 6595,
+      "taxesAndFees": 2903
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-052",
+    "name": "Radisson Blu Chennai",
+    "location": "Chennai",
+    "address": "10 minutes walk to central point, Chennai",
+    "rating": 4.0,
+    "ratingLabel": "Very Good",
+    "totalRatings": 3230,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": [
+      "Swimming pool available",
+      "Friendly staff",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6596,
+      "discounted": 5356,
+      "taxesAndFees": 1066
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-053",
+    "name": "Lemon Tree Premier Kolkata",
+    "location": "Kolkata",
+    "address": "8 minutes walk to central point, Kolkata",
+    "rating": 3.7,
+    "ratingLabel": "Very Good",
+    "totalRatings": 10947,
+    "isCoupleFriendly": true,
+    "offers": [
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off",
+      "20% off on session of Spa"
+    ],
+    "highlights": [
+      "Friendly staff",
+      "Near metro station",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6765,
+      "discounted": 5536,
+      "taxesAndFees": 2695
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-054",
+    "name": "Marriott Resort Goa",
+    "location": "Goa",
+    "address": "5 minutes walk to central point, Goa",
+    "rating": 3.8,
+    "ratingLabel": "Very Good",
+    "totalRatings": 14807,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa", "Flat 15% off for members"],
+    "highlights": [
+      "24/7 room service",
+      "Near metro station",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11175,
+      "discounted": 9766,
+      "taxesAndFees": 1189
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-055",
+    "name": "The Oberoi Jaipur",
+    "location": "Jaipur",
+    "address": "4 minutes walk to central point, Jaipur",
+    "rating": 4.1,
+    "ratingLabel": "Very Good",
+    "totalRatings": 6989,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa", "Free breakfast included"],
+    "highlights": [
+      "24/7 room service",
+      "Swimming pool available",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9735,
+      "discounted": 8507,
+      "taxesAndFees": 1528
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-056",
+    "name": "Novotel Mumbai",
+    "location": "Mumbai",
+    "address": "6 minutes walk to central point, Mumbai",
+    "rating": 4.3,
+    "ratingLabel": "Superb",
+    "totalRatings": 13801,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa"],
+    "highlights": [
+      "Complimentary buffet",
+      "Friendly staff",
+      "Near metro station",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6737,
+      "discounted": 4299,
+      "taxesAndFees": 2278
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-057",
+    "name": "Radisson Blu Mumbai",
+    "location": "Mumbai",
+    "address": "10 minutes walk to central point, Mumbai",
+    "rating": 3.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 6118,
+    "isCoupleFriendly": false,
+    "offers": [
+      "Flat 15% off for members",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["24/7 room service", "Complimentary buffet"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8357,
+      "discounted": 7225,
+      "taxesAndFees": 2438
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-058",
+    "name": "Trident Goa",
+    "location": "Goa",
+    "address": "6 minutes walk to central point, Goa",
+    "rating": 4.6,
+    "ratingLabel": "Superb",
+    "totalRatings": 8252,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": [
+      "24/7 room service",
+      "Complimentary buffet",
+      "Near metro station",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8603,
+      "discounted": 7490,
+      "taxesAndFees": 2530
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-059",
+    "name": "Holiday Inn Hyderabad",
+    "location": "Hyderabad",
+    "address": "9 minutes walk to central point, Hyderabad",
+    "rating": 4.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 4082,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members", "Free breakfast included"],
+    "highlights": [
+      "24/7 room service",
+      "Swimming pool available",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8427,
+      "discounted": 7196,
+      "taxesAndFees": 2896
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-060",
+    "name": "Marriott Resort Hyderabad",
+    "location": "Hyderabad",
+    "address": "9 minutes walk to central point, Hyderabad",
+    "rating": 4.6,
+    "ratingLabel": "Excellent",
+    "totalRatings": 2424,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa"],
+    "highlights": [
+      "Complimentary buffet",
+      "Swimming pool available",
+      "Near metro station",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9086,
+      "discounted": 8565,
+      "taxesAndFees": 2582
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-061",
+    "name": "The Park Hyderabad",
+    "location": "Hyderabad",
+    "address": "3 minutes walk to central point, Hyderabad",
+    "rating": 3.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 13716,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included", "Flat 15% off for members"],
+    "highlights": ["Near metro station", "Complimentary buffet"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6392,
+      "discounted": 5684,
+      "taxesAndFees": 2871
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-062",
+    "name": "Marriott Resort Hyderabad",
+    "location": "Hyderabad",
+    "address": "2 minutes walk to central point, Hyderabad",
+    "rating": 4.0,
+    "ratingLabel": "Excellent",
+    "totalRatings": 14502,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included", "20% off on session of Spa"],
+    "highlights": [
+      "Complimentary buffet",
+      "Swimming pool available",
+      "24/7 room service",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9310,
+      "discounted": 7295,
+      "taxesAndFees": 2430
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-063",
+    "name": "Taj Palace Goa",
+    "location": "Goa",
+    "address": "7 minutes walk to central point, Goa",
+    "rating": 4.0,
+    "ratingLabel": "Excellent",
+    "totalRatings": 7106,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "Swimming pool available",
+      "Friendly staff",
+      "Near metro station",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7147,
+      "discounted": 6142,
+      "taxesAndFees": 2465
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-064",
+    "name": "Marriott Resort Chennai",
+    "location": "Chennai",
+    "address": "3 minutes walk to central point, Chennai",
+    "rating": 4.5,
+    "ratingLabel": "Very Good",
+    "totalRatings": 7509,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members", "Free breakfast included"],
+    "highlights": [
+      "Near metro station",
+      "Complimentary buffet",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7464,
+      "discounted": 6205,
+      "taxesAndFees": 2905
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-065",
+    "name": "Lemon Tree Premier Pune",
+    "location": "Pune",
+    "address": "1 minutes walk to central point, Pune",
+    "rating": 3.8,
+    "ratingLabel": "Excellent",
+    "totalRatings": 9971,
+    "isCoupleFriendly": false,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["Swimming pool available", "Complimentary buffet"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11409,
+      "discounted": 9475,
+      "taxesAndFees": 1583
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-066",
+    "name": "Marriott Resort Delhi",
+    "location": "Delhi",
+    "address": "7 minutes walk to central point, Delhi",
+    "rating": 4.3,
+    "ratingLabel": "Superb",
+    "totalRatings": 2583,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members", "20% off on session of Spa"],
+    "highlights": [
+      "Swimming pool available",
+      "Near metro station",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8454,
+      "discounted": 7178,
+      "taxesAndFees": 1180
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-067",
+    "name": "The Park Goa",
+    "location": "Goa",
+    "address": "5 minutes walk to central point, Goa",
+    "rating": 4.6,
+    "ratingLabel": "Excellent",
+    "totalRatings": 6289,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "24/7 room service",
+      "Near metro station",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11783,
+      "discounted": 10227,
+      "taxesAndFees": 1051
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-068",
+    "name": "Radisson Blu Goa",
+    "location": "Goa",
+    "address": "7 minutes walk to central point, Goa",
+    "rating": 4.2,
+    "ratingLabel": "Excellent",
+    "totalRatings": 9683,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "Friendly staff",
+      "Swimming pool available",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6989,
+      "discounted": 6105,
+      "taxesAndFees": 1220
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-069",
+    "name": "Radisson Blu Pune",
+    "location": "Pune",
+    "address": "4 minutes walk to central point, Pune",
+    "rating": 4.8,
+    "ratingLabel": "Excellent",
+    "totalRatings": 3926,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Near metro station",
+      "Complimentary buffet",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8807,
+      "discounted": 7346,
+      "taxesAndFees": 1761
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-070",
+    "name": "The Oberoi Hyderabad",
+    "location": "Hyderabad",
+    "address": "4 minutes walk to central point, Hyderabad",
+    "rating": 4.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 2918,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa", "Free breakfast included"],
+    "highlights": [
+      "24/7 room service",
+      "Friendly staff",
+      "Complimentary buffet",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6682,
+      "discounted": 4503,
+      "taxesAndFees": 2737
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-071",
+    "name": "Lemon Tree Premier Kolkata",
+    "location": "Kolkata",
+    "address": "8 minutes walk to central point, Kolkata",
+    "rating": 4.4,
+    "ratingLabel": "Excellent",
+    "totalRatings": 13265,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa", "Free breakfast included"],
+    "highlights": [
+      "24/7 room service",
+      "Complimentary buffet",
+      "Swimming pool available",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7108,
+      "discounted": 6339,
+      "taxesAndFees": 1325
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-072",
+    "name": "The Oberoi Mumbai",
+    "location": "Mumbai",
+    "address": "9 minutes walk to central point, Mumbai",
+    "rating": 4.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 14515,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Swimming pool available",
+      "Near metro station",
+      "Complimentary buffet",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6569,
+      "discounted": 6030,
+      "taxesAndFees": 1118
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-073",
+    "name": "The Oberoi Hyderabad",
+    "location": "Hyderabad",
+    "address": "3 minutes walk to central point, Hyderabad",
+    "rating": 3.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 14550,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included"],
+    "highlights": ["Complimentary buffet", "24/7 room service"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6632,
+      "discounted": 4403,
+      "taxesAndFees": 2949
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-074",
+    "name": "Trident Chennai",
+    "location": "Chennai",
+    "address": "6 minutes walk to central point, Chennai",
+    "rating": 4.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 9145,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": ["Friendly staff", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 6488,
+      "discounted": 5975,
+      "taxesAndFees": 2034
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-075",
+    "name": "Lemon Tree Premier Delhi",
+    "location": "Delhi",
+    "address": "5 minutes walk to central point, Delhi",
+    "rating": 4.3,
+    "ratingLabel": "Very Good",
+    "totalRatings": 11394,
+    "isCoupleFriendly": false,
+    "offers": [
+      "Free breakfast included",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["Complimentary buffet", "Swimming pool available"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8914,
+      "discounted": 7236,
+      "taxesAndFees": 1070
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-076",
+    "name": "ITC Grand Kolkata",
+    "location": "Kolkata",
+    "address": "3 minutes walk to central point, Kolkata",
+    "rating": 4.7,
+    "ratingLabel": "Excellent",
+    "totalRatings": 3674,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": ["24/7 room service", "Complimentary buffet"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7630,
+      "discounted": 6603,
+      "taxesAndFees": 2957
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-077",
+    "name": "The Oberoi Delhi",
+    "location": "Delhi",
+    "address": "8 minutes walk to central point, Delhi",
+    "rating": 3.8,
+    "ratingLabel": "Excellent",
+    "totalRatings": 6503,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa", "Flat 15% off for members"],
+    "highlights": ["Swimming pool available", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9056,
+      "discounted": 6590,
+      "taxesAndFees": 1241
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-078",
+    "name": "Radisson Blu Udaipur",
+    "location": "Udaipur",
+    "address": "6 minutes walk to central point, Udaipur",
+    "rating": 3.5,
+    "ratingLabel": "Superb",
+    "totalRatings": 12579,
+    "isCoupleFriendly": false,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "Friendly staff",
+      "Complimentary buffet",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8287,
+      "discounted": 6547,
+      "taxesAndFees": 2930
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-079",
+    "name": "Taj Palace Kolkata",
+    "location": "Kolkata",
+    "address": "2 minutes walk to central point, Kolkata",
+    "rating": 4.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 11290,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": ["Swimming pool available", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10671,
+      "discounted": 8653,
+      "taxesAndFees": 2141
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-080",
+    "name": "The Park Jaipur",
+    "location": "Jaipur",
+    "address": "2 minutes walk to central point, Jaipur",
+    "rating": 4.8,
+    "ratingLabel": "Superb",
+    "totalRatings": 3185,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa", "Flat 15% off for members"],
+    "highlights": [
+      "Near metro station",
+      "Complimentary buffet",
+      "Swimming pool available",
+      "Friendly staff"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7385,
+      "discounted": 6546,
+      "taxesAndFees": 2437
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-081",
+    "name": "Radisson Blu Goa",
+    "location": "Goa",
+    "address": "7 minutes walk to central point, Goa",
+    "rating": 4.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 2140,
+    "isCoupleFriendly": false,
+    "offers": ["20% off on session of Spa"],
+    "highlights": [
+      "Near metro station",
+      "24/7 room service",
+      "Friendly staff",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8880,
+      "discounted": 6862,
+      "taxesAndFees": 1271
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-082",
+    "name": "Trident Mumbai",
+    "location": "Mumbai",
+    "address": "3 minutes walk to central point, Mumbai",
+    "rating": 3.6,
+    "ratingLabel": "Very Good",
+    "totalRatings": 14618,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included", "Flat 15% off for members"],
+    "highlights": [
+      "Friendly staff",
+      "Swimming pool available",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8425,
+      "discounted": 6679,
+      "taxesAndFees": 1850
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-083",
+    "name": "ITC Grand Jaipur",
+    "location": "Jaipur",
+    "address": "7 minutes walk to central point, Jaipur",
+    "rating": 3.7,
+    "ratingLabel": "Superb",
+    "totalRatings": 4019,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Friendly staff",
+      "Near metro station",
+      "24/7 room service",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11037,
+      "discounted": 10535,
+      "taxesAndFees": 1714
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-084",
+    "name": "Trident Chennai",
+    "location": "Chennai",
+    "address": "8 minutes walk to central point, Chennai",
+    "rating": 3.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 12552,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "Swimming pool available",
+      "24/7 room service",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11071,
+      "discounted": 9293,
+      "taxesAndFees": 2743
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-085",
+    "name": "Novotel Goa",
+    "location": "Goa",
+    "address": "2 minutes walk to central point, Goa",
+    "rating": 4.6,
+    "ratingLabel": "Very Good",
+    "totalRatings": 8778,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": ["Near metro station", "24/7 room service", "Friendly staff"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7368,
+      "discounted": 6402,
+      "taxesAndFees": 1206
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-086",
+    "name": "The Park Chennai",
+    "location": "Chennai",
+    "address": "4 minutes walk to central point, Chennai",
+    "rating": 4.6,
+    "ratingLabel": "Excellent",
+    "totalRatings": 13404,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa", "Flat 15% off for members"],
+    "highlights": [
+      "24/7 room service",
+      "Friendly staff",
+      "Swimming pool available",
+      "Near metro station"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7703,
+      "discounted": 6420,
+      "taxesAndFees": 2192
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-087",
+    "name": "Holiday Inn Mumbai",
+    "location": "Mumbai",
+    "address": "4 minutes walk to central point, Mumbai",
+    "rating": 3.8,
+    "ratingLabel": "Very Good",
+    "totalRatings": 5448,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": ["Friendly staff", "24/7 room service", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7036,
+      "discounted": 5190,
+      "taxesAndFees": 1207
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-088",
+    "name": "The Oberoi Bangalore",
+    "location": "Bangalore",
+    "address": "1 minutes walk to central point, Bangalore",
+    "rating": 4.6,
+    "ratingLabel": "Excellent",
+    "totalRatings": 10465,
+    "isCoupleFriendly": true,
+    "offers": [
+      "20% off on session of Spa",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": [
+      "Near metro station",
+      "Swimming pool available",
+      "Friendly staff",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10078,
+      "discounted": 8686,
+      "taxesAndFees": 1905
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-089",
+    "name": "ITC Grand Bangalore",
+    "location": "Bangalore",
+    "address": "3 minutes walk to central point, Bangalore",
+    "rating": 4.0,
+    "ratingLabel": "Very Good",
+    "totalRatings": 7811,
+    "isCoupleFriendly": false,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Swimming pool available",
+      "Near metro station",
+      "Complimentary buffet"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10189,
+      "discounted": 8196,
+      "taxesAndFees": 2105
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-090",
+    "name": "The Oberoi Kolkata",
+    "location": "Kolkata",
+    "address": "10 minutes walk to central point, Kolkata",
+    "rating": 3.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 14393,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included", "Flat 15% off for members"],
+    "highlights": [
+      "Near metro station",
+      "Swimming pool available",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9105,
+      "discounted": 7642,
+      "taxesAndFees": 1045
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-091",
+    "name": "The Park Udaipur",
+    "location": "Udaipur",
+    "address": "3 minutes walk to central point, Udaipur",
+    "rating": 3.6,
+    "ratingLabel": "Excellent",
+    "totalRatings": 10526,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa", "Free breakfast included"],
+    "highlights": ["Friendly staff", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9828,
+      "discounted": 7457,
+      "taxesAndFees": 2863
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-092",
+    "name": "Novotel Mumbai",
+    "location": "Mumbai",
+    "address": "8 minutes walk to central point, Mumbai",
+    "rating": 3.8,
+    "ratingLabel": "Very Good",
+    "totalRatings": 2779,
+    "isCoupleFriendly": true,
+    "offers": ["Free breakfast included"],
+    "highlights": [
+      "Friendly staff",
+      "Complimentary buffet",
+      "Near metro station",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7637,
+      "discounted": 6820,
+      "taxesAndFees": 1298
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-093",
+    "name": "Radisson Blu Jaipur",
+    "location": "Jaipur",
+    "address": "3 minutes walk to central point, Jaipur",
+    "rating": 4.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 14682,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": ["24/7 room service", "Friendly staff", "Near metro station"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9543,
+      "discounted": 8602,
+      "taxesAndFees": 2732
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-094",
+    "name": "Novotel Hyderabad",
+    "location": "Hyderabad",
+    "address": "6 minutes walk to central point, Hyderabad",
+    "rating": 4.9,
+    "ratingLabel": "Superb",
+    "totalRatings": 11991,
+    "isCoupleFriendly": true,
+    "offers": [
+      "Free breakfast included",
+      "ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"
+    ],
+    "highlights": ["Swimming pool available", "24/7 room service"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 9612,
+      "discounted": 8122,
+      "taxesAndFees": 2269
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-095",
+    "name": "Taj Palace Goa",
+    "location": "Goa",
+    "address": "4 minutes walk to central point, Goa",
+    "rating": 4.2,
+    "ratingLabel": "Superb",
+    "totalRatings": 2773,
+    "isCoupleFriendly": true,
+    "offers": ["Flat 15% off for members"],
+    "highlights": [
+      "Complimentary buffet",
+      "Near metro station",
+      "Swimming pool available",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 8330,
+      "discounted": 7142,
+      "taxesAndFees": 1396
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-096",
+    "name": "Radisson Blu Goa",
+    "location": "Goa",
+    "address": "2 minutes walk to central point, Goa",
+    "rating": 5.0,
+    "ratingLabel": "Very Good",
+    "totalRatings": 12807,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa"],
+    "highlights": ["Near metro station", "24/7 room service"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 11662,
+      "discounted": 11082,
+      "taxesAndFees": 1872
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-097",
+    "name": "The Oberoi Pune",
+    "location": "Pune",
+    "address": "9 minutes walk to central point, Pune",
+    "rating": 4.3,
+    "ratingLabel": "Very Good",
+    "totalRatings": 2027,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included", "Flat 15% off for members"],
+    "highlights": [
+      "Swimming pool available",
+      "Complimentary buffet",
+      "24/7 room service"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7965,
+      "discounted": 7269,
+      "taxesAndFees": 1879
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-098",
+    "name": "Holiday Inn Chennai",
+    "location": "Chennai",
+    "address": "3 minutes walk to central point, Chennai",
+    "rating": 4.8,
+    "ratingLabel": "Superb",
+    "totalRatings": 4181,
+    "isCoupleFriendly": true,
+    "offers": ["20% off on session of Spa"],
+    "highlights": ["24/7 room service", "Complimentary buffet"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10584,
+      "discounted": 8170,
+      "taxesAndFees": 2391
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-099",
+    "name": "ITC Grand Bangalore",
+    "location": "Bangalore",
+    "address": "9 minutes walk to central point, Bangalore",
+    "rating": 4.3,
+    "ratingLabel": "Very Good",
+    "totalRatings": 14988,
+    "isCoupleFriendly": false,
+    "offers": ["Free breakfast included"],
+    "highlights": ["Complimentary buffet", "Swimming pool available"],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 10787,
+      "discounted": 9242,
+      "taxesAndFees": 2949
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  },
+  {
+    "id": "hotel-100",
+    "name": "The Oberoi Kolkata",
+    "location": "Kolkata",
+    "address": "10 minutes walk to central point, Kolkata",
+    "rating": 3.5,
+    "ratingLabel": "Excellent",
+    "totalRatings": 1006,
+    "isCoupleFriendly": true,
+    "offers": ["ICICI-Amazon Co-Brand Offer - Get INR 3699 Off"],
+    "highlights": [
+      "Complimentary buffet",
+      "Friendly staff",
+      "Near metro station",
+      "Swimming pool available"
+    ],
+    "images": [
+      "assets/images/hotel1.jpg",
+      "assets/images/hotel1-1.jpg",
+      "assets/images/hotel1-2.jpg",
+      "assets/images/hotel1-3.jpg"
+    ],
+    "price": {
+      "original": 7977,
+      "discounted": 6477,
+      "taxesAndFees": 2692
+    },
+    "ctaText": "Login to Book Now & Pay Later!"
+  }
+]

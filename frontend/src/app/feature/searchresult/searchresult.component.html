@@ -1,1 +1,6 @@
-<p>Welcome to Search Result</p>
+<section class="hotelSearchResult container">
+    <div *ngFor="let hotel of hotels">
+        <h1>{{hotel.name}}</h1>
+        <h2>{{hotel.location}}</h2>
+    </div>
+</section>

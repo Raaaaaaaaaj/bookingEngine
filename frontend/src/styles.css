@@ -7,11 +7,15 @@
 * {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
 
 body {
   /* overflow-y: hidden; */
   height: 100vh;
+  overflow: hidden;
 }
 
 /* Widths */
