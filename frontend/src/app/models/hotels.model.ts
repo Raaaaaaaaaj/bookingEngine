@@ -17,4 +17,5 @@ export interface Hotel {
         taxesAndFees: number;
     };
     ctaText: string;
+    // room: Room[];    
 }
