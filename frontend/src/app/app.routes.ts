@@ -1,9 +1,14 @@
 import { Routes } from '@angular/router';
-import { SearchresultComponent } from './feature/searchresult/searchresult.component';
-import { SearchComponent } from './feature/search/search.component';
+import { clientRoutes } from './feature/client/client.routes';
+import { adminRoutes } from './feature/admin/admin.routes';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'search', pathMatch: 'full' },
-    { path: 'search', component: SearchComponent},
-    { path: 'searchResult', component: SearchresultComponent }
+    {
+        path: '',
+        children: clientRoutes,  // Booking steps
+    },
+    {
+        path: 'admin',
+        children: adminRoutes, // Admin panel
+    }
 ];

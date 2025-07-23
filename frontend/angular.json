@@ -5,7 +5,13 @@
   "projects": {
     "booking_engine": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+    "type": "component",
+    "style": "css",
+    "standalone": true
+  }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",

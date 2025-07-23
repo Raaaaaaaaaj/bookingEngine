@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Hotel } from '../../models/hotels.model';
+import { Hotel } from '../../../models/hotels.model';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { CardModule } from 'primeng/card';
