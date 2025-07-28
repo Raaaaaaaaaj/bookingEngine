@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
-const loginUrl = 'http://localhost:3000/api/login';
+const loginUrl = 'http://localhost:5000/api/login';
 
 @Component({
   selector: 'app-login',
@@ -23,14 +23,12 @@ export class LoginComponent {
   login() {
     if (this.Loginform.valid) {
       const payload = this.Loginform.value;
-      this.http.post(loginUrl, payload).subscribe(
-        res => {
-          console.log("Success")
-        },
-        err => {
-          console.log("Failed")
-        }
-      );
+      this.http.post(loginUrl, payload).subscribe({
+        next: (res) => console.log('Response:', res),
+        error: (err) => console.error('Error:', err),
+        complete: () => console.log('Request complete'),
+      });
+      // alert("Logged in")
     }
   }
 }
