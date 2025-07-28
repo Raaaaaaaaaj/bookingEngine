@@ -1,12 +1,12 @@
 <!-- Login 8 - Bootstrap Brain Component -->
-<section class="h-75 mt-4">
+<section class="login">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-xxl-11">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12">
                 <div class="card border-light-subtle shadow-sm">
                     <div class="row g-0">
                         <div class="col-12 col-md-6">
-                            <img class="img-fluid rounded-start w-100 object-fit-cover" loading="lazy"
+                            <img class="img-fluid rounded-start" loading="lazy"
                                 src="https://images.unsplash.com/photo-1517191434949-5e90cd67d2b6?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="Welcome back you've been missed!">
                         </div>
@@ -27,22 +27,25 @@
                                             </div>
                                         </div>
                                     </div> -->
-                                    <form action="#!">
+                                    <form [formGroup]="Loginform" (ngSubmit)="login()">
                                         <div class="row gy-1 overflow-hidden">
                                             <div class="col-12">
                                                 <div class="form-floating mb-1">
-                                                    <input type="email" class="form-control" name="email" id="email"
-                                                        placeholder="name@example.com" required>
-                                                    <label for="email" class="form-label">Email</label>
+                                                    <input type="email" class="form-control" id="userMail"
+                                                        formControlName="userMail" placeholder="name@example.com"
+                                                        required>
+                                                    <label for="userMail" class="form-label">Email</label>
                                                 </div>
                                             </div>
+                                            <!-- <p>you mail is: {{Loginform.userMail.value}}</p> -->
                                             <div class="col-12">
                                                 <div class="form-floating mb-1">
-                                                    <input type="password" class="form-control" name="password"
-                                                        id="password" value="" placeholder="Password" required>
-                                                    <label for="password" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="userPass" value=""
+                                                        formControlName="userPass" placeholder="Password" required>
+                                                    <label for="userPass" class="form-label">Password</label>
                                                 </div>
                                             </div>
+                                            <!-- <p>you mail is: {{Loginform.userPass.value}}</p> -->
                                             <div class="col-12 mt-2">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value=""
@@ -54,7 +57,8 @@
                                             </div>
                                             <div class="col-12 mt-4">
                                                 <div class="d-grid">
-                                                    <button class="btn btn-dark btn-lg" type="submit">Log in
+                                                    <button class="btn btn-dark btn-lg" type="submit"
+                                                        [disabled]="Loginform.invalid">Log in
                                                         now</button>
                                                 </div>
                                             </div>

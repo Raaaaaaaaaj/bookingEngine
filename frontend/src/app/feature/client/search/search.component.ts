@@ -26,7 +26,7 @@ export class SearchComponent implements OnInit {
   showPromo: boolean = false;
 
   ngOnInit(): void {
-    console.log("Initialized")
+    // console.log("Initialized")
   }
 
   // Adult Count
