@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { ToastModule } from 'primeng/toast';
@@ -8,13 +9,13 @@ const loginUrl = 'http://localhost:5000/api/login';
 
 @Component({
   selector: 'app-login',
-  imports: [ReactiveFormsModule, ToastModule],
+  imports: [ReactiveFormsModule, ToastModule, CommonModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css',
   providers: [MessageService]
 })
 export class LoginComponent {
-  // isDisabled: boolean = true;
+  showPassword: boolean = false;
   constructor(
     private http: HttpClient,
     private router: Router,
@@ -39,6 +40,8 @@ export class LoginComponent {
             summary: res.messgae || 'Login Success',
             detail: 'Getting You There!'
           });
+          // Resets the form
+          this.Loginform.reset();
           setTimeout(() => {
             this.router.navigate(['/admin/dashboard'])
           }, 1700)

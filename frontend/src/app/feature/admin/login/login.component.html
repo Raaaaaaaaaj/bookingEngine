@@ -40,8 +40,18 @@
                                             <!-- <p>you mail is: {{Loginform.userMail.value}}</p> -->
                                             <div class="col-12">
                                                 <div class="form-floating mb-1">
-                                                    <input type="password" class="form-control" id="userPass" value=""
+                                                    <input [type]="showPassword ? 'text' : 'password'"
+                                                        class="form-control" id="userPass" value=""
                                                         formControlName="userPass" placeholder="Password" required>
+                                                    <i class="fas" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"
+                                                        (click)="showPassword = !showPassword" style="
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #555;"></i>
+
                                                     <label for="userPass" class="form-label">Password</label>
                                                 </div>
                                             </div>
