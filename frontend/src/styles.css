@@ -93,3 +93,8 @@ body {
 .p-component{
     margin-bottom: 10px !important;
 }
+
+/* Toast */
+.p-toast-detail{
+    color: black !important; 
+}

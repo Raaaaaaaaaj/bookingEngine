@@ -1,17 +1,25 @@
 import { Component } from '@angular/core';
 import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { ToastModule } from 'primeng/toast';
+import { MessageService } from 'primeng/api';
 const loginUrl = 'http://localhost:5000/api/login';
 
 @Component({
   selector: 'app-login',
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, ToastModule],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  styleUrl: './login.component.css',
+  providers: [MessageService]
 })
 export class LoginComponent {
   // isDisabled: boolean = true;
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private router: Router,
+    private messageservice: MessageService
+  ) { }
   Loginform = new FormGroup({
     userMail: new FormControl('', [Validators.required, Validators.email]),
     userPass: new FormControl('', [Validators.required, Validators.minLength(4)])
@@ -23,12 +31,35 @@ export class LoginComponent {
   login() {
     if (this.Loginform.valid) {
       const payload = this.Loginform.value;
+
       this.http.post(loginUrl, payload).subscribe({
-        next: (res) => console.log('Response:', res),
-        error: (err) => console.error('Error:', err),
-        complete: () => console.log('Request complete'),
+        next: (res: any) => {
+          this.messageservice.add({
+            severity: 'success',
+            summary: res.messgae || 'Login Success',
+            detail: 'Getting You There!'
+          });
+          setTimeout(() => {
+            this.router.navigate(['/admin/dashboard'])
+          }, 1700)
+        },
+        error: (err) => {
+          this.messageservice.add({
+            severity: 'error',
+            summary: 'Login Failed',
+            detail: err.error?.message || 'Invalid Credentials!'
+          })
+        },
+        complete: () => { console.info('Process Completed!') }
       });
-      // alert("Logged in")
     }
+    else {
+      this.messageservice.add({
+        severity: 'warn',
+        summary: 'Form Invalid',
+        detail: "Please fill in all required details"
+      })
+    }
+    // alert("Logged in")
   }
 }
