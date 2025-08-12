@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 const connecToDb = require('./config/db');
 const authRoute = require('./routes/auth.routes')
 const cors = require('cors');
+import mongoose from 'mongoose';
 
 dotenv.config();
 
