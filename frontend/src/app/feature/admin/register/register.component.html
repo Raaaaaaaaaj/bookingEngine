@@ -1,0 +1,46 @@
+<div class="container mt-5">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 col-md-6">
+            <div class="form-container">
+                <h2 class="text-center mb-4">Create Account</h2>
+                <form id="registrationForm" novalidate>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" pInputText [(ngModel)]="value" class="text-start" />
+                        <div class="error-message" id="fullNameError"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" pInputText [(ngModel)]="value" class="text-start" />
+                        <div class="error-message" id="emailError"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" pInputText [(ngModel)]="value" class="text-start" />
+                        <div class="error-message" id="phoneError"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <p-password [(ngModel)]="value" [toggleMask]="true" class="w-50" class="text-start" />
+                        <small class="form-text text-muted" id="passwordHint">Password must be at least 8 characters
+                            long
+                            with
+                            numbers, letters, and special characters</small>
+                        <div class="error-message" id="passwordError"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirm Password</label>
+                        <p-password [(ngModel)]="value" [toggleMask]="true" class="w-50" class="text-start" />
+                        <div class="error-message" id="confirmPasswordError"></div>
+                    </div>
+                    <div>
+                        <small>Already have an account? <a href='admin/login'>Login</a> Here</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100" id="submitBtn">
+                        Create Account
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
