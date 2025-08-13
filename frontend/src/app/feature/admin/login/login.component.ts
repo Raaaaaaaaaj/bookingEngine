@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { environment } from '../../../../../environments/environment';
 import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
-const loginUrl = 'http://localhost:5000/api/login';
+const loginUrl = `${environment.apiUrl}/login`;
 
 @Component({
   selector: 'app-login',
@@ -32,7 +33,7 @@ export class LoginComponent {
   login() {
     if (this.Loginform.valid) {
       const payload = this.Loginform.value;
-      
+
       this.http.post(loginUrl, payload).subscribe({
         next: (res: any) => {
           this.messageservice.add({
