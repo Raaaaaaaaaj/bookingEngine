@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const connecToDb = async () => {
     try {
@@ -6,7 +6,7 @@ const connecToDb = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
-        console.log('Mongo DB connected')
+        console.log('Mongo DB connected');
     }
     catch (error) {
         console.log("Somehting Happened! :", error.message);
@@ -14,5 +14,5 @@ const connecToDb = async () => {
     }
 }
 
-module.exports = connecToDb;
+export default connecToDb;
 

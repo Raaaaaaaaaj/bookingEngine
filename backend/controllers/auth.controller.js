@@ -1,9 +1,8 @@
-import RegisterUser from '../models/registerUser.model';
+import RegisterUser from '../models/registerUser.model.js';
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
 export const registerUser = async (req, res) => {
-
     try {
         const { userName, userMail, userPhone, userPass } = req.body;
 
@@ -27,3 +26,5 @@ export const registerUser = async (req, res) => {
         res.status(500).json({ message: "Server Error", error: err.message });
     };
 };
+
+export default registerUser;

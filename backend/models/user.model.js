@@ -1,5 +1,5 @@
 // User Modals - Database Schemas
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const UserSchema = new Schema({
@@ -15,4 +15,4 @@ const UserSchema = new Schema({
     }
 }, { timestamps: true });
 
-module.exports = mongoose.model('User', UserSchema)
+export default mongoose.model("User", UserSchema)

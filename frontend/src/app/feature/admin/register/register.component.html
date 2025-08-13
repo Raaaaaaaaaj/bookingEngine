@@ -3,7 +3,7 @@
         <div class="col-12 col-md-6">
             <div class="form-container">
                 <h2 class="text-center mb-4">Create Account</h2>
-                <form id="registrationForm" [formGroup]="registerForm" (ngSubmit)="register()">
+                <form id="registrationForm" (ngSubmit)="registerUser()">
                     <div class="mb-3">
                         <label for="fullName" class="form-label">Full Name</label>
                         <input type="text" pInputText [(ngModel)]="value" class="text-start" />
