@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { environment } from '../../../../environment/environment';
+import { environment } from '../../../../environments/environment';
 // import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
