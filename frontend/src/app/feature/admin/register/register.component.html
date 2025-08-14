@@ -5,34 +5,36 @@
                 <h2 class="text-center mb-4">Create Account</h2>
                 <form id="registrationForm" (ngSubmit)="registerUser()">
                     <div class="mb-3">
-                        <label for="fullName" class="form-label">Full Name</label>
-                        <input type="text" pInputText [(ngModel)]="value" class="text-start" />
-                        <div class="error-message" id="fullNameError"></div>
+                        <label for="userName" class="form-label">Full Name</label>
+                        <input type="text" pInputText [(ngModel)]="user.userName" class="text-start" name="userName" />
+                        <div class="error-message" id="fuserNameError"></div>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" pInputText [(ngModel)]="value" class="text-start" />
-                        <div class="error-message" id="emailError"></div>
+                        <label for="userMail" class="form-label">Email Address</label>
+                        <input type="email" pInputText [(ngModel)]="user.userMail" class="text-start" name="userMail" />
+                        <div class="error-message" id="userMailError"></div>
                     </div>
                     <div class="mb-3">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" pInputText [(ngModel)]="value" class="text-start" />
-                        <div class="error-message" id="phoneError"></div>
+                        <label for="puserPhonehone" class="form-label">Phone Number</label>
+                        <input type="tel" pInputText [(ngModel)]="user.userPhone" class="text-start" name="userPhone" />
+                        <div class="error-message" id="userPhoneError"></div>
                     </div>
                     <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <p-password [(ngModel)]="value" [toggleMask]="true" class="w-50" class="text-start" />
+                        <label for="userPass" class="form-label">Password</label>
+                        <p-password [(ngModel)]="user.userPass" [toggleMask]="true" class="w-50" class="text-start"
+                            name="userPass" />
                         <small class="form-text text-muted" id="passwordHint">Password must be at least 8 characters
                             long
                             with
                             numbers, letters, and special characters</small>
-                        <div class="error-message" id="passwordError"></div>
+                        <div class="error-message" id="userPassError"></div>
                     </div>
-                    <div class="mb-3">
+                    <!-- <div class="mb-3">
                         <label for="confirmPassword" class="form-label">Confirm Password</label>
-                        <p-password [(ngModel)]="value" [toggleMask]="true" class="w-50" class="text-start" />
+                        <p-password [(ngModel)]="user.confirmPassword" name="confirmPassword" [toggleMask]=" true"
+                            class="w-50" class="text-start" name="confirmPassword" />
                         <div class="error-message" id="confirmPasswordError"></div>
-                    </div>
+                    </div> -->
                     <div>
                         <small>Already have an account? <a href='admin/login'>Login</a> Here</small>
                     </div>
@@ -44,3 +46,4 @@
         </div>
     </div>
 </div>
+<p-toast></p-toast>

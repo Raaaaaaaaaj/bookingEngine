@@ -33,7 +33,7 @@ export class LoginComponent {
   login() {
     if (this.Loginform.valid) {
       const payload = this.Loginform.value;
-
+      console.log(payload)
       this.http.post(loginUrl, payload).subscribe({
         next: (res: any) => {
           this.messageservice.add({

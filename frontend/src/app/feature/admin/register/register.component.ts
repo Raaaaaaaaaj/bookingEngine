@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { environment } from '../../../../../environments/environment';
-import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
+// import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 import { PasswordModule } from 'primeng/password';
 import { FormsModule } from '@angular/forms';
 import { InputTextModule } from 'primeng/inputtext';
@@ -13,14 +14,57 @@ const registerUserUrl = `${environment.apiUrl}/register`;
 
 @Component({
   selector: 'app-register',
-  imports: [FormsModule, PasswordModule, InputTextModule, ReactiveFormsModule, CommonModule],
+  imports: [FormsModule, PasswordModule, InputTextModule, CommonModule, ToastModule],
   templateUrl: './register.component.html',
   styleUrl: './register.component.css',
   providers: [MessageService]
 })
 export class RegisterComponent {
   value!: string;
+  user = {
+    userName: '',
+    userMail: '',
+    userPhone: '',
+    userPass: '',
+    // confirmPassword: ''
+  }
+  constructor(private http: HttpClient, private messageService: MessageService, private router: Router) { }
   registerUser() {
-    alert("Registered");
+    console.log("Hit")
+    // if (this.user.userPass !== this.user.confirmPassword) {
+    //   this.messageService.add({
+    //     severity: 'error',
+    //     summary: 'Error',
+    //     detail: 'Password do not match'
+    //   });
+    //   return;
+    // }
+
+    this.http.post(registerUserUrl, this.user).subscribe({
+      next: (res: any) => {
+        this.messageService.add({
+          severity: 'success',
+          summary: 'Success',
+          detail: 'Account Created Successfully'
+        });
+        this.user = {
+          userName: '',
+          userMail: '',
+          userPhone: '',
+          userPass: ''
+          // confirmPassword: ''
+        };
+        setTimeout(() => {
+          this.router.navigate(['/admin/login'])
+        }, 1700)
+      },
+      error: (err) => {
+        this.messageService.add({
+          severity: 'error',
+          summary: 'Error',
+          detail: err.error?.message || 'Something went wrong'
+        })
+      }
+    })
   }
 }

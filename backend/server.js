@@ -1,11 +1,12 @@
-import express from 'express';
 import dotenv from 'dotenv';
+dotenv.config();
+import express from 'express';
 import connecToDb from './config/db.js';
 import authRoute from './routes/auth.routes.js';
 import cors from 'cors';
 import mongoose from 'mongoose';
 
-dotenv.config();
+// dotenv.config();
 
 const port = process.env.PORT || 5000;
 
