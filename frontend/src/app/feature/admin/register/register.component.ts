@@ -32,15 +32,7 @@ export class RegisterComponent {
   constructor(private http: HttpClient, private messageService: MessageService, private router: Router) { }
   registerUser() {
     this.spinner = true;
-    console.log("Hit")
-    // if (this.user.userPass !== this.user.confirmPassword) {
-    //   this.messageService.add({
-    //     severity: 'error',
-    //     summary: 'Error',
-    //     detail: 'Password do not match'
-    //   });
-    //   return;
-    // }
+    console.log("Hit");
 
     this.http.post(registerUserUrl, this.user).subscribe({
       next: (res: any) => {
