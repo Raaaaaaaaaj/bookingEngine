@@ -40,6 +40,11 @@
                     </div>
                     <button type="submit" class="btn btn-primary w-100" id="submitBtn">
                         Create Account
+                        <span style="vertical-align: middle; margin-left: 8px;">
+                            <p-progress-spinner *ngIf="spinner" strokeWidth="8" fill="transparent" animationDuration=".5s"
+                                [style]="{ width: '20px', height: '20px' }">
+                            </p-progress-spinner>
+                        </span>
                     </button>
                 </form>
             </div>

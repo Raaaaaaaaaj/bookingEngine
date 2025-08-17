@@ -9,17 +9,18 @@ import { InputTextModule } from 'primeng/inputtext';
 import { HttpClient } from '@angular/common/http';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
+import { ProgressSpinner } from 'primeng/progressspinner';
 const registerUserUrl = `${environment.apiUrl}/register`;
-
 
 @Component({
   selector: 'app-register',
-  imports: [FormsModule, PasswordModule, InputTextModule, CommonModule, ToastModule],
+  imports: [FormsModule, PasswordModule, InputTextModule, CommonModule, ToastModule, ProgressSpinner],
   templateUrl: './register.component.html',
   styleUrl: './register.component.css',
   providers: [MessageService]
 })
 export class RegisterComponent {
+  spinner: boolean = false;
   value!: string;
   user = {
     userName: '',
@@ -30,6 +31,7 @@ export class RegisterComponent {
   }
   constructor(private http: HttpClient, private messageService: MessageService, private router: Router) { }
   registerUser() {
+    this.spinner = true;
     console.log("Hit")
     // if (this.user.userPass !== this.user.confirmPassword) {
     //   this.messageService.add({
@@ -57,6 +59,8 @@ export class RegisterComponent {
         setTimeout(() => {
           this.router.navigate(['/admin/login'])
         }, 1700)
+
+        this.spinner = false;
       },
       error: (err) => {
         this.messageService.add({
@@ -64,6 +68,7 @@ export class RegisterComponent {
           summary: 'Error',
           detail: err.error?.message || 'Something went wrong'
         })
+        this.spinner = false;
       }
     })
   }
