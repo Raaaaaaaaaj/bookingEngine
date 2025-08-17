@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
 export default async function registerUser(req, res) {
-  console.log("➡️ Register API hit hua");
+  console.log("Regiter api got hit");
   console.log("Request Body =>", req.body);
 
   try {
@@ -41,10 +41,10 @@ export default async function registerUser(req, res) {
     const token = jwt.sign(
       { id: newUser._id },
       process.env.JWT_SECRET,
-      { expiresIn: "9d" }
+      { expiresIn: "11d" }
     );
 
-    console.log("✅ User registered:", newUser._id);
+    console.log("User registered:", newUser._id);
 
     return res.status(201).json({
       success: true,
