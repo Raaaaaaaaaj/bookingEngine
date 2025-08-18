@@ -11,7 +11,8 @@ import { provideHttpClient } from '@angular/common/http';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { providePrimeNG } from 'primeng/config';
 import { MessageService } from 'primeng/api';
-import Aura from '@primeng/themes/aura';
+// import Aura from '@primeng/themes/aura';
+import Lara from '@primeng/themes/lara';
 import {
   provideClientHydration,
   withEventReplay,
@@ -29,8 +30,14 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(withEventReplay()),
     provideAnimationsAsync(),
     providePrimeNG({
+      // theme: {
+      //   preset: Aura,
+      // },
       theme: {
-        preset: Aura,
+        preset: Lara,
+        options: {
+          darkModeSelector: false // ensure light
+        }
       },
     }),
     MessageService,
