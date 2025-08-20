@@ -44,7 +44,7 @@ export class LoginComponent {
           // Resets the form
           this.Loginform.reset();
           setTimeout(() => {
-            this.router.navigate(['/admin/dashboard'])
+            this.router.navigate(['/admin/adminPanel'])
           }, 1700)
         },
         error: (err) => {

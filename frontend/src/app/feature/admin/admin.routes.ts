@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-// import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { AdminPanleComponent } from './adminPanel/adminPanel.component';
 import { RegisterComponent } from './register/register.component';
@@ -14,7 +13,7 @@ export const adminRoutes: Routes = [
         component: LoginComponent,
     },
     {
-        path: 'dashboard',
+        path: 'adminPanel',
         component: AdminPanleComponent,
         children: [
             { path: '', redirectTo: 'createHotel', pathMatch: 'full' },
