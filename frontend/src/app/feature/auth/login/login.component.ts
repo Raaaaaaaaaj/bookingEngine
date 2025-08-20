@@ -43,9 +43,15 @@ export class LoginComponent {
           });
           // Resets the form
           this.Loginform.reset();
-          setTimeout(() => {
-            this.router.navigate(['/admin/adminPanel'])
-          }, 1700)
+          console.log("Redirecting")
+          try {
+            setTimeout(() => {
+              this.router.navigate(['/extranet/extranet'])
+            }, 1700)
+          }
+          catch (err) {
+            console.log(err)
+          }
         },
         error: (err) => {
           this.messageservice.add({
