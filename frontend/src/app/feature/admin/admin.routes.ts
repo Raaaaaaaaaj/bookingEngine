@@ -1,8 +1,9 @@
 import { Routes } from '@angular/router';
 // import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { AdminPanleComponent } from './adminPanel/adminPanel.component';
 import { RegisterComponent } from './register/register.component';
+import { CreateHotelComponent } from './adminPanel/create-hotel/create-hotel.component';
 export const adminRoutes: Routes = [
     {
         path: 'register',
@@ -14,6 +15,10 @@ export const adminRoutes: Routes = [
     },
     {
         path: 'dashboard',
-        component: DashboardComponent
+        component: AdminPanleComponent,
+        children: [
+            { path: '', redirectTo: 'createHotel', pathMatch: 'full' },
+            { path: 'createHotel', component: CreateHotelComponent }
+        ]
     }
 ];
