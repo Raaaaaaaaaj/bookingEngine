@@ -1,1 +1,14 @@
-<a href="/admin/adminPanel">Admin</a>
+<!-- <a href="/admin/adminPanel">Admin</a> -->
+<section id="properties bg-tertiary py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex align-items-center justify-content-between">
+                <h2>My Properties</h2>
+                <button class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-plus"></i> List New
+                    Properties</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<span>Welcome, {{ (authService.user$ | async)?.name }}</span>

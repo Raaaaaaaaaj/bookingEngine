@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
+import { Auth } from '../../../core/services/auth';
 const loginUrl = `${environment.apiUrl}/login`;
 
 @Component({
@@ -20,7 +21,8 @@ export class LoginComponent {
   constructor(
     private http: HttpClient,
     private router: Router,
-    private messageservice: MessageService
+    private messageservice: MessageService,
+    private authService: Auth
   ) { }
   Loginform = new FormGroup({
     userMail: new FormControl('', [Validators.required, Validators.email]),
@@ -36,6 +38,8 @@ export class LoginComponent {
       console.log(payload)
       this.http.post(loginUrl, payload).subscribe({
         next: (res: any) => {
+          localStorage.setItem("token", res.token);
+          this.authService.setUser(res.user);
           this.messageservice.add({
             severity: 'success',
             summary: res.messgae || 'Login Success',
