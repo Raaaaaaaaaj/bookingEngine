@@ -54,7 +54,7 @@ export class LoginComponent {
             }, 1700)
           }
           catch (err) {
-            console.log(err)
+            console.log(err, "This is the error")
           }
         },
         error: (err) => {

@@ -36,7 +36,7 @@
         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
             data-bs-toggle="dropdown">
             <img src="https://i.pravatar.cc/40" alt="" width="32" height="32" class="rounded-circle me-2">
-            <strong>Admin</strong>
+            <strong>{{(authService.user$ | async)?.name}}</strong>
         </a>
         <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
             <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -72,7 +72,7 @@
         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
             data-bs-toggle="dropdown">
             <img src="https://i.pravatar.cc/40" alt="" width="32" height="32" class="rounded-circle me-2">
-            <strong>Admin</strong>
+            <strong>{{(authService.user$ | async)?.name}}</strong>
         </a>
         <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
             <li><a class="dropdown-item" href="#">Profile</a></li>

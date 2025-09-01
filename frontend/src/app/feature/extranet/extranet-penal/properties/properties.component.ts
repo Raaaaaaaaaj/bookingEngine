@@ -11,7 +11,6 @@ import { AsyncPipe } from '@angular/common';
 export class PropertiesComponent implements OnInit {
   constructor(public authService: Auth) { }
   ngOnInit() {
-    this.authService.ladFromLocalStorage()
+    this.authService.loadFromLocalStorage()
   }
-
 }
