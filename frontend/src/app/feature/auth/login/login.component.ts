@@ -50,7 +50,7 @@ export class LoginComponent {
           console.log("Redirecting")
           try {
             setTimeout(() => {
-              this.router.navigate(['/extranet/extranet'])
+              this.router.navigate(['/extranet'])
             }, 1700)
           }
           catch (err) {

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Auth } from '../../../../core/services/auth';
 import { OnInit } from '@angular/core';
-import { AsyncPipe } from '@angular/common';
+import { RouterModule } from '@angular/router';
+// import { AsyncPipe } from '@angular/common';
 @Component({
   selector: 'app-properties',
-  imports: [AsyncPipe],
+  imports: [RouterModule],
   templateUrl: './properties.component.html',
   styleUrl: './properties.component.css'
 })

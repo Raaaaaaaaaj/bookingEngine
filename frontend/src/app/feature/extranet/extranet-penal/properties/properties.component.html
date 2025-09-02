@@ -1,5 +1,4 @@
-<!-- <a href="/admin/adminPanel">Admin</a> -->
-<section id="properties bg-tertiary py-5">
+<!-- <section id="properties bg-tertiary py-5">
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex align-items-center justify-content-between">
@@ -11,4 +10,66 @@
     </div>
 </section>
 
-<span>Welcome, {{ (authService.user$ | async)?.name }}</span>
+<span>Welcome, {{ (authService.user$ | async)?.name }}</span> -->
+<!-- <a href="/admin/adminPanel">Admin</a> -->
+<div class="container py-4">
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">My Properties</h2>
+        <button class="btn btn-danger">
+            <i class="bi bi-plus-lg"></i> List New Property
+        </button>
+    </div>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs mb-4">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#active">
+                Active Properties (0)
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#inprogress">
+                In-Progress Properties (0)
+            </a>
+        </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content">
+        <!-- Active Tab -->
+        <div class="tab-pane fade show active" id="active">
+            <div class="text-center py-5 bg-light rounded shadow-sm">
+                <div class="text-warning fs-1 mb-3">
+                    <i class="bi bi-exclamation-circle"></i>
+                </div>
+                <h4 class="fw-semibold">No Active Properties</h4>
+                <p class="text-muted mb-4">
+                    Complete your listing soon and make your inactive properties active
+                </p>
+
+                <div class="d-flex justify-content-center gap-3">
+                    <button class="btn btn-outline-primary">
+                        <i class="bi bi-eye"></i> View In-Progress Properties
+                    </button>
+                    <a class="btn btn-danger" [routerLink]="['/extranet/create-property']">
+                        List New Property <i class="fa fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- In-Progress Tab -->
+        <div class="tab-pane fade" id="inprogress">
+            <div class="text-center py-5 bg-light rounded shadow-sm">
+                <div class="text-info fs-1 mb-3">
+                    <i class="bi bi-hourglass-split"></i>
+                </div>
+                <h4 class="fw-semibold">No In-Progress Properties</h4>
+                <p class="text-muted">
+                    Start listing a property to see it appear here
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
