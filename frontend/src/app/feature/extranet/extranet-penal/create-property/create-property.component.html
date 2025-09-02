@@ -1,1 +1,28 @@
-<p>create-property works!</p>
+<div class="container my-4">
+    <!-- Tabs -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" [routerLink]="['basic-info']">Basic Info</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['location']">Location</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['amenities']">Amenities</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['rooms']">Rooms</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['photos']">Photos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['policies']">Policies</a>
+        </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content card shadow-sm mt-3 p-4">
+        <router-outlet></router-outlet>
+    </div>
+</div>
