@@ -60,4 +60,19 @@
             {"id": "junglesafari", "name": "Jungle Safari"}
         ]
     },
-]
+    {
+        "category": "Health & Wellness",
+        "amenities": [
+            {"id": "activitycenter", "name": "Activity Center"},
+            {"id": "reflexology", "name": "Reflexology"},
+            {"id": "yoga", "name": "Yoga"},
+            {"id": "meditationroom", "name": "Meditation Room"},
+            {"id": "jacuzzi", "name": "Jacuzzi"},
+            {"id": "gameroom", "name": "Game room"},
+            {"id": "cycling", "name": "Cyclcing"},
+            {"id": "telescope", "name": "Telescope"},
+            {"id": "skiing", "name": "Skiing"},
+            {"id": "junglesafari", "name": "Jungle Safari"}
+        ]
+    }
+] 
