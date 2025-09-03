@@ -103,3 +103,8 @@ body {
 .p-inputtext {
   width: 100% !important;
 }
+
+/* Dropdown icon */
+.p-select-dropdown {
+  margin-top: 10px !important;
+}

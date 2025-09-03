@@ -3,7 +3,6 @@ import { ExtranetPenalComponent } from './extranet-penal/extranet-penal.componen
 import { PropertiesComponent } from './extranet-penal/properties/properties.component';
 import { CreatePropertyComponent } from './extranet-penal/create-property/create-property.component';
 import { BasicInfoComponent } from './extranet-penal/create-property/steps/basic-info.component';
-import { LocationComponent } from './extranet-penal/create-property/steps/location.component';
 import { AmenitiesComponent } from './extranet-penal/create-property/steps/amenities.component';
 import { RoomsComponent } from './extranet-penal/create-property/steps/rooms.component';
 import { PhotosComponent } from './extranet-penal/create-property/steps/photos.component';
@@ -26,7 +25,6 @@ export const extranetRoutes: Routes = [
                 component: CreatePropertyComponent,
                 children: [
                     { path: 'basic-info', component: BasicInfoComponent },
-                    { path: 'location', component: LocationComponent },
                     { path: 'amenities', component: AmenitiesComponent },
                     { path: 'rooms', component: RoomsComponent },
                     { path: 'photos', component: PhotosComponent },
