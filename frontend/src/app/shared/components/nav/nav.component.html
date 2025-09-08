@@ -14,13 +14,12 @@
   </div>
   <div class="col-md-4 d-flex justify-content-end align-items-center">
     <div class="custom-select-wrapper me-3" id="language-select-wrapper">
-      <app-select [options]="languages" [selected]="selectedLanguage" ariaLabel="Language Select"
+      <app-select [options]="languages" ariaLabel="Language Select"
         (selectionChange)="onLanguageChange($event)"></app-select>
     </div>
     <div class="custom-select-wrapper" id="currency-select-wrapper">
       <div class="custom-options" id="currency-select-options">
-        <app-select [options]="currencies" [selected]="selectedCurrency" ariaLabel="Currency Select"
-          (selectionChange)="onCurrencyChange($event)">
+        <app-select [options]="currencies" ariaLabel="Currency Select" (selectionChange)="onCurrencyChange($event)">
         </app-select>
       </div>
     </div>
