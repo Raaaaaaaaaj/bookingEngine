@@ -2,11 +2,12 @@ import { Component } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from "@angular/forms";
 import { SelectComponent } from "../../../../../shared/components/select/select.component";
+import { Router, RouterLink } from "@angular/router";
 
 @Component({
   selector: "app-basic-info",
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule, SelectComponent],
+  imports: [ReactiveFormsModule, CommonModule, SelectComponent, RouterLink],
   template: `
     <section id="basic-info" aria-labelledby="basic-info-title">
       <div class="container">
@@ -133,7 +134,7 @@ import { SelectComponent } from "../../../../../shared/components/select/select.
 
                 <!-- Submit Button -->
                 <div class="d-flex align-items-center justify-content-end mt-3">
-                  <button class="btn btn-danger w-25" [disabled]="basicInfo.invalid">Submit</button>
+                  <button class="btn btn-danger w-25" [disabled]="basicInfo.invalid" [routerLink]="['../amenities']">Submit</button>
                 </div>
               </form>
 
@@ -222,6 +223,7 @@ import { SelectComponent } from "../../../../../shared/components/select/select.
   `]
 })
 export class BasicInfoComponent {
+  constructor(private router: Router){}
   years = Array.from({ length: 60 }, (_, i) => {
     const year = new Date().getFullYear() - i;
     return { value: year.toString(), label: year.toString() };
@@ -243,4 +245,8 @@ export class BasicInfoComponent {
     propertyEmail: new FormControl("", [Validators.required, Validators.email]),
     propertyPhone: new FormControl("", [Validators.required, Validators.pattern(/^[0-9]{10}$/)]),
   });
+
+  // goToAmenities(){
+  //   this.router.navigate(['/create-property/amenities']);
+  // }
 }
