@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, FormArray, FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
+import {amenities}
 
 
 @Component({
@@ -115,4 +116,7 @@ import { Router, ActivatedRoute } from '@angular/router';
     </section>
   `,
 })
-export class AmenitiesComponent implements OnInit {}
+export class AmenitiesComponent implements OnInit {
+
+
+}
