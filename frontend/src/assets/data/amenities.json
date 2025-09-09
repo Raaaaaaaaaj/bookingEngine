@@ -74,5 +74,61 @@
             {"id": "skiing", "name": "Skiing"},
             {"id": "junglesafari", "name": "Jungle Safari"}
         ]
+    },
+    {
+        "category": "Beauty & Spa",
+        "amenities": [
+            {"id": "massage", "name": "Massage"},
+            {"id": "salon", "name": "Salon"},
+            {"id": "spa", "name": "Spa"},
+            {"id": "steam", "name": "Steam"},
+            {"id": "openairbath", "name": "Open Air Bath"},
+            {"id": "hammam", "name": "Hammam"}
+        ]
+    },
+    {
+        "category": "Security",
+        "amenities": [
+            {"id": "alarms", "name": "Security Alarms"},
+            {"id": "guards", "name": "Security Guards"},
+            {"id": "extinguisher", "name": "Fire Extinguisher"}
+        ]
+    },
+    {
+        "category": "Transfers",
+        "amenities": [
+            {"id": "shuttle", "name": "Shuttle Service"},
+            {"id": "stationTransfer", "name": "Railway Station Transfers"},
+            {"id": "terminusTransfer", "name": "Bus Terminus Transfer"},
+            {"id": "airportTransfer", "name": "Airport Transfer"}
+        ]
+    },
+    {
+        "category": "Entertainment",
+        "amenities": [
+            {"id": "events", "name": "Events"},
+            {"id": "pub", "name": "Pub"},
+            {"id": "professionalPhotography", "name": "Professional Photography"},
+            {"id": "nightClub", "name": "Night Club"},
+            {"id": "beachClub", "name": "Beach Club"},
+            {"id": "movieroom", "name": "Movie Room"},
+            {"id": "musicsystem", "name": "Music System"},
+            {"id": "waterpark", "name": "Water Park"}
+        ]
+    },
+    {
+        "category": "Payment Service",
+        "amenities": [
+            {"id": "atm", "name": "ATM"},
+            {"id": "currencyExchange", "name": "Currency Exchange"}
+        ]
+    },
+    {
+        "category": "Indoor Sports",
+        "amenities": [
+            {"id": "tennis", "name": "Tennis"},
+            {"id": "carrom", "name": "Carrom"},
+            {"id": "basketball", "name": "Basketball"}
+        ]
     }
 ] 
