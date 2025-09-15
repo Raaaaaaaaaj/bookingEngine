@@ -94,7 +94,7 @@ import { ViewChild, ElementRef } from '@angular/core';
             <button type="button" class="btn btn-outline-secondary" (click)="goTo('basic-info')">
               ← Back
             </button>
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-danger">
               Save & Continue →
             </button>
           </div>

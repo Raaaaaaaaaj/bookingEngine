@@ -223,7 +223,7 @@ import { Router, RouterLink } from "@angular/router";
   `]
 })
 export class BasicInfoComponent {
-  constructor(private router: Router){}
+  constructor(private router: Router) { }
   years = Array.from({ length: 60 }, (_, i) => {
     const year = new Date().getFullYear() - i;
     return { value: year.toString(), label: year.toString() };
