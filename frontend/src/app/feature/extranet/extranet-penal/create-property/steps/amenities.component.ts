@@ -1,122 +1,207 @@
 import { Component, OnInit } from "@angular/core";
-import { FormBuilder, FormGroup, FormArray, FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { Router, ActivatedRoute } from '@angular/router';
-import {amenities}
-
+import { FormBuilder, FormGroup, FormArray, FormControl, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
+import { Router, ActivatedRoute, RouterModule } from '@angular/router';
+import { CommonModule } from "@angular/common";
+import { HttpClient } from "@angular/common/http";
+import { ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: "app-amenities",
-  imports: [FormsModule, ReactiveFormsModule],
+  imports: [FormsModule, ReactiveFormsModule, CommonModule, RouterModule],
   template: `
-    <section id="amenities" aria-labelledby="amenities-title">
-      <div class="container">
-        <div class="sectionHead text-center">
-          <h1 id="basic-info-title">Property Amenities</h1>
-        </div>
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center amenitiesform">
-            <div class="card" role="group" aria-labelledby="property-amenities-title">
-              <h2 id="property-details-title">Property Amenities</h2>
-              <p class="subtitle">Select Your Property Amenities</p>
-            <form [formGroup]="amenitiesForm" >
-              <aside class="col-12 col-lg-3">
-      <div class="position-sticky" style="top: 1rem;">
-        <div class="list-group shadow-sm">
-          <!-- We'll compute selected count in TS later; for now showing (0 of N) -->
-          <a
-            *ngFor="let cat of categoriesData; let i = index"
-            class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-            [href]="'#cat-' + i"
-          >
-            <span class="fw-semibold">{{ cat.category }}</span>
-            <span class="badge bg-light text-dark border">
-              <!-- Replace 0 with dynamic selected count later -->
-              0 of {{ cat.amenities.length }}
-            </span>
-          </a>
-        </div>
-      </div>
-    </aside>
-<section class="col-12 col-lg-9">
-      <!-- FormArray wrapper -->
-      <div formArrayName="categories" class="d-flex flex-column gap-4">
-
-        <!-- Category block -->
-        <div
-          *ngFor="let cat of categoriesData; let ci = index"
-          class="card border-0 shadow-sm"
-          [attr.id]="'cat-' + ci"
-          [formGroupName]="ci"
-        >
-          <div class="card-header bg-white">
-            <div class="d-flex align-items-center justify-content-between">
-              <h5 class="mb-0">{{ cat.category }}</h5>
-              <!-- live count placeholder; wire up later -->
-              <span class="small text-muted">
-                Selected: <strong>0</strong> / {{ cat.amenities.length }}
-              </span>
-            </div>
-          </div>
-
-          <div class="card-body p-0">
-            <!-- Amenity rows -->
-            <div
-              *ngFor="let a of cat.amenities; let ai = index"
-              class="border-top px-3 py-3"
+<section id="amenities" aria-labelledby="amenities-title" class="py-4 amenities-container" #mainContent>
+  <div class="container">
+    <div class="row">
+      <!-- Sidebar -->
+      <aside class="col-12 col-lg-3">
+        <div class="sticky-sidebar">
+          <div class="list-group shadow-sm rounded-3">
+            <a
+              *ngFor="let cat of categoriesData; let i = index"
+              class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+              
+              (click)="scrollTo('cat-' + i)"
             >
-              <div class="row align-items-center">
-                <div class="col">
-                  <div class="fw-semibold">{{ a.name }}</div>
-                </div>
-
-                <!-- Radios: No / Yes (boolean) -->
-                <div class="col-auto" [formGroupName]="'amenities'">
-                  <div class="form-check form-check-inline">
-                    <input
-                      type="radio"
-                      class="form-check-input"
-                      [id]="a.id + '-no'"
-                      [value]="false"
-                      [formControlName]="a.id"
-                    />
-                    <label class="form-check-label" [for]="a.id + '-no'">No</label>
-                  </div>
-
-                  <div class="form-check form-check-inline">
-                    <input
-                      type="radio"
-                      class="form-check-input"
-                      [id]="a.id + '-yes'"
-                      [value]="true"
-                      [formControlName]="a.id"
-                    />
-                    <label class="form-check-label" [for]="a.id + '-yes'">Yes</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /Amenity rows -->
+              <span class="fw-semibold">{{ cat.category }}</span>
+              <span class="badge bg-light text-dark border">
+                {{ getSelectedCount(i) }} / {{ cat.amenities.length }}
+              </span>
+            </a>
           </div>
         </div>
-        <!-- /Category block -->
+      </aside>
 
-      </div>
+      <!-- Main Content -->
+      <section class="col-12 col-lg-9">
+        <form [formGroup]="amenitiesForm" (ngSubmit)="onSubmit()">
+          <div formArrayName="categories" class="d-flex flex-column gap-4">
 
-      <!-- Bottom actions (mobile) -->
-      <div class="d-flex d-md-none justify-content-between mt-3">
-        <button type="button" class="btn btn-outline-secondary" (click)="goTo('basic-info')">Back</button>
-        <button type="submit" class="btn btn-primary">Save & Continue</button>
-      </div>
-    </section>
-            </form>
+            <!-- Category Block -->
+            <div
+              *ngFor="let cat of categoriesData; let ci = index"
+              class="card border shadow-sm rounded-3"
+              [attr.id]="'cat-' + ci"
+              [formGroupName]="ci"
+            >
+              <!-- Header -->
+              <div class="card-header bg-white border-0 py-3 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 fw-semibold">{{ cat.category }}</h5>
+                <small class="text-muted">
+                  Selected: <strong>{{ getSelectedCount(ci) }}</strong> / {{ cat.amenities.length }}
+                </small>
+              </div>
+
+              <!-- Body -->
+              <ul class="list-group list-group-flush" formGroupName="amenities">
+                <li
+                  *ngFor="let a of cat.amenities; let ai = index"
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-medium">{{ a.name }}</span>
+                  <div class="d-flex gap-3">
+                    <!-- No -->
+                    <div class="form-check form-check-inline">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        [id]="a.id + '-no'"
+                        [formControlName]="a.id"
+                        [value]="false"
+                      />
+                      <label class="form-check-label small" [for]="a.id + '-no'">No</label>
+                    </div>
+                    <!-- Yes -->
+                    <div class="form-check form-check-inline">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        [id]="a.id + '-yes'"
+                        [formControlName]="a.id"
+                        [value]="true"
+                      />
+                      <label class="form-check-label small" [for]="a.id + '-yes'">Yes</label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
-            </div>
-        </div>
-      </div>
-    </section>
-  `,
+            <!-- /Category Block -->
+
+          </div>
+
+          <!-- Bottom Actions -->
+          <div class="d-flex justify-content-between mt-4">
+            <button type="button" class="btn btn-outline-secondary" (click)="goTo('basic-info')">
+              ← Back
+            </button>
+            <button type="submit" class="btn btn-primary">
+              Save & Continue →
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</section>
+`,
+  styles: [`
+ .amenities-container {
+  display: flex;
+  height: 600px; /* ya jitna scrollable chahiye */
+  gap: 1rem;
+  overflow-y: scroll;
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+}
+`]
 })
 export class AmenitiesComponent implements OnInit {
+  @ViewChild('mainContent') mainContent!: ElementRef;
+  amenitiesForm: any = FormGroup;
+  categoriesData: any[] = [];
+  constructor(
+    private http: HttpClient,
+    private fb: FormBuilder,
+    private router: Router,
+    private route: ActivatedRoute
+  ) { }
+  scrollTo(anchor: string) {
+    const main = this.mainContent.nativeElement;
+    const element = main.querySelector('#' + anchor);
+    if (element) {
+      const stickyOffset = this.stickySidebarHeight() || 0; // sticky header height
+      const mandatoryOffset = this.mandatoryDivHeight() || 0; // mandatory block height
+      const topPos = element.offsetTop - stickyOffset - mandatoryOffset - 10; // 10px extra spacing
+      main.scrollTo({ top: topPos, behavior: 'smooth' });
+    }
+  }
 
+  stickySidebarHeight(): number {
+    const sidebar = document.querySelector('.sticky-sidebar');
+    return sidebar ? sidebar.clientHeight : 0;
+  }
 
+  mandatoryDivHeight(): number {
+    const mandatory = document.querySelector('.mandatory-div');
+    return mandatory ? mandatory.clientHeight : 0;
+  }
+  ngOnInit(): void {
+    this.http.get<[any]>('/assets/data/amenities.json').subscribe({
+      next: (data) => {
+        this.categoriesData = data;
+        console.log(this.categoriesData);
+        this.buildForm();
+      },
+      error: (err) => console.error("Error Loading Amenities JSON", err)
+    });
+  };
+
+  buildForm() {
+    this.amenitiesForm = this.fb.group({
+      categories: this.fb.array([])
+    })
+
+    this.categoriesData.forEach(cat => {
+      const amenitiesGroup: Record<string, FormControl> = {}
+      cat.amenities.forEach((a: any) => {
+        amenitiesGroup[a.id] = new FormControl(null)
+      });
+      const categoryGroup = this.fb.group({
+        amenities: this.fb.group(amenitiesGroup)
+      });
+      this.categories.push(categoryGroup)
+    });
+  }
+
+  get categories(): FormArray {
+    return this.amenitiesForm.get('categories') as FormArray;
+  }
+  // Selected count for a category
+  getSelectedCount(catIndex: number): number {
+    const catGroup = this.categories.at(catIndex) as FormGroup;
+    const amenities = catGroup.get('amenities') as FormGroup;
+    return Object.values(amenities.value).filter(v => v === true).length;
+  }
+  // Total amenities in a category
+  getTotalCount(catIndex: number): number {
+    return this.categoriesData[catIndex]?.amenities?.length || 0;
+  }
+  // Navigate Between Steps
+  goTo(step: string) {
+    this.router.navigate(['../' + step], { relativeTo: this.route })
+  }
+  // Handle Form Submit
+  onSubmit() {
+    if (this.amenitiesForm.valid) {
+      console.log("Form Submitted", this.amenitiesForm.value);
+      this.goTo('rooms');
+    }
+    else {
+      console.warn("Form Invalid")
+    }
+  }
 }
