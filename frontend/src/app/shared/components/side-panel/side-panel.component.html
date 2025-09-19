@@ -1,3 +1,4 @@
+<!-- For Admin -->
 <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100 shadow-sm sidebar" *ngIf="isAdmin()">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
         <i class="fas fa-cubes me-2 fs-4"></i>
@@ -49,16 +50,18 @@
     </div>
 </div>
 
+
+<!-- For Extranet -->
 <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100 shadow-sm sidebar" *ngIf="isExtranet()">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-        <i class="fas fa-cubes me-2 fs-4"></i>
         <span class="fs-5 fw-semibold">Extranet</span>
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
-            <a href="#" class="nav-link active text-white">
-                <i class="fas fa-home me-2"></i> Properties
+            <a href="#" class="nav-link active text-white d-flex align-items-center">
+                <i class="dashboardIcon icon me-3"></i> 
+                <span class="fs20"> Properties </span>
             </a>
         </li>
         <li>
