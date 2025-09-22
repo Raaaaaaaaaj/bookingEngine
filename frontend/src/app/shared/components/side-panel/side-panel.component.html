@@ -1,89 +1,94 @@
 <!-- For Admin -->
-<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100 shadow-sm sidebar" *ngIf="isAdmin()">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-        <i class="fas fa-cubes me-2 fs-4"></i>
-        <span class="fs-5 fw-semibold">Extranet</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-        <li class="nav-item">
-            <a href="#" class="nav-link active text-white">
-                <i class="fas fa-home me-2"></i> Overview
-            </a>
-        </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fas fa-users me-2"></i> Rates & Availabilities
-            </a>
-        </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fas fa-box me-2"></i> Create Property
-            </a>
-        </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fas fa-chart-line me-2"></i> Analytics
-            </a>
-        </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fas fa-cog me-2"></i> Settings
-            </a>
-        </li>
-    </ul>
-    <hr>
-    <div class="dropdown">
-        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-            data-bs-toggle="dropdown">
-            <img src="https://i.pravatar.cc/40" alt="" width="32" height="32" class="rounded-circle me-2">
-            <strong>{{(authService.user$ | async)?.name}}</strong>
+<div class="row">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100 shadow-sm sidebar" *ngIf="isAdmin()">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <i class="fas fa-cubes me-2 fs-4"></i>
+            <span class="fs-5 fw-semibold">Extranet</span>
         </a>
-        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li>
-                <hr class="dropdown-divider">
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link active text-white">
+                    <i class="fas fa-home me-2"></i> Overview
+                </a>
             </li>
-            <li><a class="dropdown-item" href="#">Logout</a></li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="fas fa-users me-2"></i> Rates & Availabilities
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="fas fa-box me-2"></i> Create Property
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="fas fa-chart-line me-2"></i> Analytics
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="fas fa-cog me-2"></i> Settings
+                </a>
+            </li>
         </ul>
+        <hr>
+        <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown">
+                <img src="https://i.pravatar.cc/40" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>{{(authService.user$ | async)?.name}}</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
 
-<!-- For Extranet -->
-<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100 shadow-sm sidebar" *ngIf="isExtranet()">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-        <span class="fs-5 fw-semibold">Extranet</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-        <li class="nav-item">
-            <a href="#" class="nav-link active text-white d-flex align-items-center">
-                <i class="dashboardIcon icon me-3"></i> 
-                <span class="fs20"> Properties </span>
-            </a>
-        </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fas fa-users me-2"></i> Reports
-            </a>
-        </li>
-    </ul>
-    <hr>
-    <div class="dropdown">
-        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-            data-bs-toggle="dropdown">
-            <img src="https://i.pravatar.cc/40" alt="" width="32" height="32" class="rounded-circle me-2">
-            <strong>{{(authService.user$ | async)?.name}}</strong>
+<!-- Sidebar for Extranet -->
+<div class="row">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100 shadow-sm sidebar" *ngIf="isExtranet()">
+        <!-- Brand -->
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-4 fw-bold">Extranet</span>
         </a>
-        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li>
-                <hr class="dropdown-divider">
+        <hr>
+        <!-- Navigation -->
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link active text-white d-flex align-items-center">
+                    <i class="dashboardIcon icon me-3"></i> Properties
+                </a>
             </li>
-            <li><a class="dropdown-item" href="#">Logout</a></li>
+            <li>
+                <a href="#" class="nav-link text-white d-flex align-items-center">
+                    <i class="usersIcon icon me-3"></i> Customers
+                </a>
+            </li>
         </ul>
+        <!-- User dropdown bottom aligned -->
+        <div class="dropdown mt-auto">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://i.pravatar.cc/40" alt="User" width="32" height="32" class="rounded-circle me-2">
+                <strong>{{(authService.user$ | async)?.name}}</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="userDropdown">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+        </div>
     </div>
 </div>
