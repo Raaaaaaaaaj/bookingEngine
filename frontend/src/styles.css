@@ -12,7 +12,6 @@
 }
 
 body {
-  /* overflow-y: hidden; */
   height: 100vh;
   overflow: hidden;
 }
@@ -79,8 +78,21 @@ body {
   cursor: pointer;
 }
 
+/* Created Icons from images */
+/* Icons */
+.icon {
+  height: 20px;
+  width: 20px;
+  display: block;
+}
 
+.dashboardIcon {
+  background-image: url('/assets/images/icons/home.png');
+}
 
+.usersIcon {
+  background-image: url('/assets/images/icons/users.png');
+}
 
 /* Prime NG OverRide Styles */
 /* Toast */

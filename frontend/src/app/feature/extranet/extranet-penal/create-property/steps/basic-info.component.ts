@@ -133,8 +133,8 @@ import { Router, RouterLink } from "@angular/router";
                 </div>
 
                 <!-- Submit Button -->
-                <div class="d-flex align-items-center justify-content-end mt-3">
-                  <button class="btn btn-danger w-25" [disabled]="basicInfo.invalid" [routerLink]="['../amenities']">Submit</button>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-end mt-3">
+                  <button class="btn btn-danger" [disabled]="basicInfo.invalid" [routerLink]="['../amenities']">Submit</button>
                 </div>
               </form>
 
@@ -152,8 +152,8 @@ import { Router, RouterLink } from "@angular/router";
       padding: 22px;
       margin: 20px auto;
       border: 1px solid #eee;
-      height: 485px;
-      overflow-y: auto;
+      height: 620px; 
+      overflow-y: scroll;
     }
     #basic-info h1 {
       font-size: 28px;
@@ -219,6 +219,24 @@ import { Router, RouterLink } from "@angular/router";
       #basic-info .grid {
         grid-template-columns: 1fr;
       }
+    }
+    @media(max-width: 764px) {
+      #basic-info .card {
+      height: 550px; 
+      overflow-y: scroll;
+    }
+    }
+    @media(max-width: 560px) {
+      #basic-info .card {
+      height: 510px; 
+      overflow-y: scroll;
+    }
+    }
+    @media screen and (min-width: 280px) and (max-width: 360px) { 
+    #basic-info .card {
+      height: 310px; 
+      overflow-y: scroll;
+    }
     }
   `]
 })

@@ -1,12 +1,33 @@
-<section>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2 col-md-2">
-                <app-side-panel></app-side-panel>
+<!-- Toggle Button for Small Screens -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="d-md-none p-4 bg-light shadow-sm">
+            <i class="fa-solid fa-bars fs26" data-bs-toggle="offcanvas" data-bs-target="#sidePanel"
+                style="color: #63E6BE;"></i>
+        </div>
+        <section class="extranet">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Sidebar for desktop -->
+                    <div class="d-none d-md-block col-2 p-0">
+                        <app-side-panel></app-side-panel>
+                    </div>
+                    <!-- Content -->
+                    <div class="col-12 col-md-10">
+                        <router-outlet></router-outlet>
+                    </div>
+                </div>
             </div>
-            <div class="col-10 col-md-10">
-                <router-outlet></router-outlet>
+        </section>
+        <!-- Offcanvas Sidebar (only for mobile) -->
+        <div class="offcanvas offcanvas-start bg-dark text-white d-md-none" tabindex="-1" id="sidePanel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Extranet</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <app-side-panel></app-side-panel>
             </div>
         </div>
     </div>
-</section>
+</div>

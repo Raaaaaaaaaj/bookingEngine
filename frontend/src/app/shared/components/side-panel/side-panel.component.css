@@ -1,6 +1,5 @@
 /* Sidebar Custom */
 .sidebar {
-    width: 250px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -22,18 +21,4 @@
 
 .dropdown-toggle strong {
     font-size: 14px;
-}
-
-.icon {
-    height: 20px;
-    width: 20px;
-    display: block;
-}
-
-.dashboardIcon {
-    background-image: url('/assets/images/icons/home.png');
-}
-
-.usersIcon {
-    background-image: url('/assets/images/icons/users.png');
 }

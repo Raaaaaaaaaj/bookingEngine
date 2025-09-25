@@ -12,7 +12,7 @@ import { MessageService } from 'primeng/api';
 import { ProgressSpinner } from 'primeng/progressspinner';
 const registerUserUrl = `${environment.apiUrl}/register`;
 
-@Component({
+  @Component({
   selector: 'app-register',
   imports: [FormsModule, PasswordModule, InputTextModule, CommonModule, ToastModule, ProgressSpinner],
   templateUrl: './register.component.html',
