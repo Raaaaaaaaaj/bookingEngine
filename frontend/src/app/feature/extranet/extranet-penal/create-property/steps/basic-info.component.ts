@@ -219,7 +219,11 @@ import { Router, RouterLink } from "@angular/router";
       #basic-info .grid {
         grid-template-columns: 1fr;
       }
+      #basic-info .card {
+      height: 900px; 
+      overflow-y: scroll;
     }
+  }
     @media(max-width: 764px) {
       #basic-info .card {
       height: 550px; 
