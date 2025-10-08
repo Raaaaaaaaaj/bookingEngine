@@ -250,7 +250,6 @@ export class BasicInfoComponent {
     const year = new Date().getFullYear() - i;
     return { value: year.toString(), label: year.toString() };
   });
-
   hotelStars = [
     { value: "1", label: "1 Star" },
     { value: "2", label: "2 Star" },
@@ -258,7 +257,6 @@ export class BasicInfoComponent {
     { value: "4", label: "4 Star" },
     { value: "5", label: "5 Star" },
   ];
-
   basicInfo = new FormGroup({
     propertyName: new FormControl("", [Validators.required, Validators.minLength(10)]),
     starRating: new FormControl("", Validators.required),
@@ -267,8 +265,4 @@ export class BasicInfoComponent {
     propertyEmail: new FormControl("", [Validators.required, Validators.email]),
     propertyPhone: new FormControl("", [Validators.required, Validators.pattern(/^[0-9]{10}$/)]),
   });
-
-  // goToAmenities(){
-  //   this.router.navigate(['/create-property/amenities']);
-  // }
 }

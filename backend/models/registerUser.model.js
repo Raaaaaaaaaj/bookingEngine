@@ -7,4 +7,4 @@ const RegisterUserSchema = new mongoose.Schema({
     userPass: { type: String, required: true },
 })
 
-export default mongoose.model("RegisterUser", RegisterUserSchema)
+export default mongoose.model("User", RegisterUserSchema)
