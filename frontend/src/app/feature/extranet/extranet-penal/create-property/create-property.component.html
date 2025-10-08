@@ -1,25 +1,42 @@
 <div class="container my-4">
     <!-- Tabs -->
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" [routerLink]="['basic-info']">Basic Info</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" [routerLink]="['amenities']">Amenities</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" [routerLink]="['rooms']">Rooms</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" [routerLink]="['photos']">Photos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" [routerLink]="['policies']">Policies</a>
-        </li>
-    </ul>
+    <div class="card flex justify-center p-4">
+        <p-stepper [value]="currentStep + 1" class="basis-[50rem]">
+            <p-step-list>
+                <p-step *ngFor="let step of steps; let i = index" [value]="i + 1" onclick="goToStep(i)">
+                    {{step.label}}
+                </p-step>
+            </p-step-list>
+            <!-- Step panels dynamically -->
+            <p-step-panels>
+                <p-step-panel *ngFor="let step of steps; let i = index" [value]="i + 1">
+                    <ng-template #content let-activateCallback="activateCallback">
+                        <div class="flex flex-col min-h-48">
+                            <div class="border-2 border-dashed border-surface-200 dark:border-surface-700
+                       rounded bg-surface-50 dark:bg-surface-950
+                       flex-auto flex justify-center items-center font-medium">
+                                <ng-container [ngSwitch]="i">
+                                    <app-basic-info *ngSwitchCase="0"></app-basic-info>
+                                    <app-amenities *ngSwitchCase="1"></app-amenities>
+                                    <app-rooms *ngSwitchCase="2"></app-rooms>
+                                    <app-photos *ngSwitchCase="3"></app-photos>
+                                    <app-policies *ngSwitchCase="4"></app-policies>
+                                </ng-container>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-6 justify-content-end">
+                            <p-button *ngIf="i > 0" label="Back" severity="secondary" icon="pi pi-arrow-left"
+                                (onClick)="prevStep()" />
 
-    <!-- Tab Content -->
-    <div class="tab-content card shadow-sm mt-3 py-2 p-md-4">
-        <router-outlet></router-outlet>
+                            <p-button *ngIf="i < steps.length - 1" label="Next" icon="pi pi-arrow-right" iconPos="right"
+                                (onClick)="nextStep()" />
+
+                            <!-- <p-button *ngIf="currentStep === steps.length - 1" label="Submit" icon="pi pi-check"
+                                (onClick)="submitForm()" /> -->
+                        </div>
+                    </ng-template>
+                </p-step-panel>
+            </p-step-panels>
+        </p-stepper>
     </div>
 </div>

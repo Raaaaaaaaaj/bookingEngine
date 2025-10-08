@@ -32,7 +32,7 @@ import { ViewChild, ElementRef } from '@angular/core';
       </aside>
 
       <!-- Main Content -->
-      <section class="col-12 col-lg-9">
+      <section class="col-12 col-lg-9 amenities">
         <form [formGroup]="amenitiesForm" (ngSubmit)="onSubmit()">
           <div formArrayName="categories" class="d-flex flex-column gap-4">
 
@@ -90,14 +90,14 @@ import { ViewChild, ElementRef } from '@angular/core';
           </div>
 
           <!-- Bottom Actions -->
-          <div class="d-flex justify-content-between mt-4">
+          <!-- <div class="d-flex justify-content-between mt-4">
             <button type="button" class="btn btn-outline-secondary" (click)="goTo('basic-info')">
               ← Back
             </button>
             <button type="submit" class="btn btn-danger">
               Save & Continue →
             </button>
-          </div>
+          </div> -->
         </form>
       </section>
     </div>
@@ -105,12 +105,11 @@ import { ViewChild, ElementRef } from '@angular/core';
 </section>
 `,
   styles: [`
- .amenities-container {
-  display: flex;
-  height: 600px; /* ya jitna scrollable chahiye */
-  gap: 1rem;
-  overflow-y: scroll;
-}
+  .amenities{
+    height: 450px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
 
 .sticky-sidebar {
   position: sticky;

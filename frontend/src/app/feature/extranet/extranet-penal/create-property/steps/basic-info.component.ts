@@ -2,19 +2,15 @@ import { Component } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from "@angular/forms";
 import { SelectComponent } from "../../../../../shared/components/select/select.component";
-import { Router, RouterLink } from "@angular/router";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-basic-info",
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule, SelectComponent, RouterLink],
+  imports: [ReactiveFormsModule, CommonModule, SelectComponent],
   template: `
     <section id="basic-info" aria-labelledby="basic-info-title">
       <div class="container">
-        <div class="sectionHead text-center">
-          <h1 id="basic-info-title">Basic Info</h1>
-        </div>
-
         <div class="row">
           <div class="col-12 d-flex justify-content-center basicInfoForm">
             <div class="card" role="group" aria-labelledby="property-details-title">
@@ -133,9 +129,9 @@ import { Router, RouterLink } from "@angular/router";
                 </div>
 
                 <!-- Submit Button -->
-                <div class="d-flex align-items-center justify-content-center justify-content-md-end mt-3">
+                <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-end mt-3">
                   <button class="btn btn-danger" [disabled]="basicInfo.invalid" [routerLink]="['../amenities']">Submit</button>
-                </div>
+                </div> -->
               </form>
 
             </div>
@@ -149,10 +145,8 @@ import { Router, RouterLink } from "@angular/router";
       background: #fff;
       border-radius: 12px;
       box-shadow: 0 6px 20px rgba(18, 25, 34, 0.06);
-      padding: 22px;
-      margin: 20px auto;
+      padding: 25px;
       border: 1px solid #eee;
-      height: 620px; 
       overflow-y: scroll;
     }
     #basic-info h1 {
