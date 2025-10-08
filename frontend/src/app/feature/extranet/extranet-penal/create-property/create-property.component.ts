@@ -24,7 +24,7 @@ export class CreatePropertyComponent {
     { label: 'Amenities', route: 'amenities' },
     { label: 'Rooms', route: 'rooms' },
     { label: 'Photos', route: 'photos' },
-    { label: 'Policies', route: 'plocies' }
+    { label: 'Policies', route: 'policies' }
   ];
 
   goToStep(index: number) {
@@ -34,7 +34,7 @@ export class CreatePropertyComponent {
 
   nextStep() {
     if (this.currentStep < this.steps.length - 1) {
-      this.currentStep++;
+      this.goToStep(this.currentStep + 1);
     } else {
       console.log("Form Submitted");
     }
@@ -42,7 +42,7 @@ export class CreatePropertyComponent {
 
   prevStep() {
     if (this.currentStep > 0) {
-      this.currentStep--;
+      this.goToStep(this.currentStep - 1);
     }
   }
 }
