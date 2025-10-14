@@ -1,4 +1,9 @@
-1. PrimeNg datepicker
-2. Date Select component ready
-3. Show promo code input field toggle function done
-4. PrimeNg using in the whole project
+1. There are 4 main modules
+    a) The client side
+    b) Admin side
+    c) Extranet side (Where property owners will create properties)
+    d) The authentication
+
+2. The client side will be for booking a hotel from desired location
+3. The extranet side will be for the property owners who will create the properties and push the rates
+4. 
