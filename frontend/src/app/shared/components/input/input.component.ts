@@ -36,7 +36,7 @@ import { CommonModule } from '@angular/common';
   `
 })
 export class InputComponent {
-// 🔹 Label text for the input
+  // 🔹 Label text for the input
   @Input() label = '';
 
   // 🔹 Input type (text, email, password, etc.)
@@ -55,7 +55,7 @@ export class InputComponent {
   @Input() disabled = false;
 
   // 🔹 Required state
-  @Input() required:boolean = false;
+  @Input() required: boolean = false;
 
   // 🔹 Optional error message
   @Input() error: string = '';

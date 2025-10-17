@@ -105,13 +105,13 @@ body {
   background-color: #f7f7f7 !important;
   width: 100rem !important;
   color: black !important;
-  text-align: center;
+  text-align: left;
 }
 
 /* Card */
-.p-component {
+/* .p-component {
   margin-bottom: 10px !important;
-}
+} */
 
 /* Toast */
 .p-toast-detail {
