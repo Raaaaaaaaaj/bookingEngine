@@ -117,7 +117,6 @@ body {
 .p-toast-detail {
   color: black !important;
 }
-
 /* Password Input */
 .p-password,
 .p-inputtext {
@@ -125,6 +124,6 @@ body {
 }
 
 /* Dropdown icon */
-.p-select-dropdown {
+/* .p-select-dropdown {
   margin-top: 10px !important;
-}
+} */
