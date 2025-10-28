@@ -1,11 +1,12 @@
 import { Component, Input } from "@angular/core";
 import { FormGroup, ReactiveFormsModule, FormBuilder, Validators } from "@angular/forms";
 import { CommonModule } from '@angular/common';
+import { Checkbox } from 'primeng/checkbox';
 import { InputComponent } from "../../../../shared/components/input/input.component";
 import { SelectComponent } from "../../../../shared/components/select/select.component";
 @Component({
   selector: "app-basic-info",
-  imports: [ReactiveFormsModule, CommonModule, InputComponent, SelectComponent],
+  imports: [ReactiveFormsModule, CommonModule, InputComponent, SelectComponent, Checkbox],
   template: `
   <div class="row d-flex align-items-center flex-column justify-content-center">
   <div class="stepHeader text-center text-decoration-underline">
@@ -17,7 +18,7 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
     >
       <div class="col-md-4 text-left">
         <p><b>1. Property name</b> <br>
-          (It will be visible on MMt)
+          (It will be visible on MMT)
         </p>
       </div>
       <div class="col-md-8">
@@ -44,6 +45,7 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
 
       <div class="col-md-4 text-left">
         <p><b>3. Email Id</b> <br>
+          (Guests will recieve mails from this mail id)
         </p>
       </div>
       <div class="col-md-8 mb-4">
@@ -51,6 +53,22 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
           id="hotelStarRating"
           arealabel="Select Star Rating"
         ></app-input>
+      </div>
+
+
+      <div class="col-md-4 text-left">
+        <p><b>4. Phone Number</b> <br>
+        </p>
+      </div>
+      <div class="col-md-8 mb-4">
+        <app-input 
+          id="hotelStarRating"
+          arealabel="Select Star Rating"
+        ></app-input>
+         <div class="flex items-center gap-2">
+         <p-checkbox [binary]="true" />
+         <label for="size_small" class="text-sm ms-2">Use the same mobile number for WhatsApp.</label>
+    </div>
       </div>
     </form>
   </div>
@@ -73,4 +91,6 @@ export class BasicInfoComponent {
     { label: "4 Star", value: 4 },
     { label: "5 Star", value: 5 },
   ]
+
+  size: any = null;
 }
