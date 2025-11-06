@@ -77,7 +77,7 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
           <!-- Verify button appears dynamically -->
           <span class="position-absolute end-0 top-0 mt-2 me-4" (click)="verifyEmail()"> Verify </span>
 
-          <small *ngIf="basicInfoForm.get('email')?.invalid && basicInfoForm.get('email')?.touched">
+          <small *ngIf="basicInfoForm.get('email')?.invalid && basicInfoForm.get('email')?.touched" class="text-danger">
   Please enter a valid email.
 </small>
         </div>
