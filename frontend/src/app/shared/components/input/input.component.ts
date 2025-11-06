@@ -1,27 +1,41 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  forwardRef,
+} from '@angular/core';
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { FloatLabel } from 'primeng/floatlabel';
 import { CommonModule } from '@angular/common';
+import {
+  ControlValueAccessor,
+  NG_VALUE_ACCESSOR,
+} from '@angular/forms';
+
 @Component({
   selector: 'app-input',
+  standalone: true,
   imports: [InputTextModule, FormsModule, FloatLabel, CommonModule],
   template: `
     <p-floatlabel variant="on">
-        <input 
-        pInputText 
-        [id]="id" 
-        [type]="type" 
-        [placeholder]="placeholder" 
-        [(ngModel)]="value"
+      <input
+        pInputText
+        [id]="id"
+        class="form-control"
+        [type]="type"
+        [placeholder]="placeholder"
         [disabled]="disabled"
         [required]="required"
-        (ngModelChange)="onInputChange($event)"
+        [value]="value"
+        (input)="onInput($event)"
+        (blur)="onTouched()"
         autocomplete="off"
-        />
-        <label [for]="id">{{label}}</label>
+      />
+      <label [for]="id">{{ label }}</label>
     </p-floatlabel>
-    <small *ngIf="error" class="text-danger text-sm">{{error}}</small>
+    <small *ngIf="error" class="text-danger text-sm">{{ error }}</small>
   `,
   styles: `
     :host {
@@ -33,38 +47,62 @@ import { CommonModule } from '@angular/common';
       opacity: 0.6;
       cursor: not-allowed;
     }
-  `
+  `,
+  providers: [
+    {
+      provide: NG_VALUE_ACCESSOR,
+      useExisting: forwardRef(() => InputComponent),
+      multi: true,
+    },
+  ],
 })
-export class InputComponent {
-  // 🔹 Label text for the input
+export class InputComponent implements ControlValueAccessor {
+  // 🔹 Inputs
   @Input() label = '';
-
-  // 🔹 Input type (text, email, password, etc.)
   @Input() type: string = 'text';
-
-  // 🔹 Unique ID
   @Input() id: string = 'input-' + Math.random().toString(36).substring(2, 9);
-
-  // 🔹 Placeholder
   @Input() placeholder = '';
-
-  // 🔹 Value for ngModel
-  @Input() value: string | number | null = '';
-
-  // 🔹 Disabled state
   @Input() disabled = false;
-
-  // 🔹 Required state
   @Input() required: boolean = false;
-
-  // 🔹 Optional error message
   @Input() error: string = '';
 
-  // 🔹 Emit value changes to parent
+  // 🔹 Outputs
   @Output() valueChange = new EventEmitter<string | number | null>();
 
-  onInputChange(newValue: any) {
-    this.valueChange.emit(newValue);
+  // 🔹 Internal value
+  value: string | number | null = '';
+
+  // 🔹 Functions provided by Angular forms
+  onChange = (value: any) => {};
+  onTouched = () => {};
+
+  // --- ControlValueAccessor methods ---
+
+  /** Called when Angular wants to write a value to the component */
+  writeValue(value: any): void {
+    this.value = value;
   }
 
+  /** Called when the component should propagate changes back to Angular */
+  registerOnChange(fn: any): void {
+    this.onChange = fn;
+  }
+
+  /** Called when the control is blurred */
+  registerOnTouched(fn: any): void {
+    this.onTouched = fn;
+  }
+
+  /** Optional: handle disabled state from parent form */
+  setDisabledState(isDisabled: boolean): void {
+    this.disabled = isDisabled;
+  }
+
+  // --- Custom logic for input events ---
+  onInput(event: Event): void {
+    const newValue = (event.target as HTMLInputElement).value;
+    this.value = newValue;
+    this.onChange(newValue); // Notify Angular Reactive Form
+    this.valueChange.emit(newValue); // Notify external listeners (if any)
+  }
 }
