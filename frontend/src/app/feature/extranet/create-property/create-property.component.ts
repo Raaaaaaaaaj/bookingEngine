@@ -32,8 +32,8 @@ export class CreatePropertyComponent implements OnInit {
   ngOnInit() {
     this.mainForm = this.fb.group({ //Decrale formgroup
       basicInfo: this.fb.group({}),
-      rooms: this.fb.group({}),
       amenities: this.fb.group({}),
+      rooms: this.fb.group({}),
       gallery: this.fb.group({}),
       policies: this.fb.group({}),
     })
