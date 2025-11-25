@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 import { FormGroup, ReactiveFormsModule } from "@angular/forms";
 import { CommonModule } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
@@ -7,11 +7,30 @@ import { HttpClient } from "@angular/common/http";
   standalone: true,
   imports: [ReactiveFormsModule, CommonModule],
   template: `
-  <h1>This is Amenities</h1>
+  <h1>{{config?.category}}</h1>
+  @if(config){
+    <ul>
+      @for(let amenity of config.amenities){
+        <li>
+          {{amenity.name}}
+        </li>
+      }
+    </ul>
+  }
+
 `,
   styles: [`
 `]
 })
-export class AmenitiesComponent {
+export class AmenitiesComponent implements OnInit {
   @Input() parentForm!: FormGroup;
-}
+  config: any;
+  constructor(private http: HttpClient){}
+
+  ngOnInit() {
+    this.http.get('/assets/data/amenities.json').subscribe((res: any) => {
+      this.config = res;
+    });
+  }
+
+}   
