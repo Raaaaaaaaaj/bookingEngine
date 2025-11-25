@@ -1,12 +1,12 @@
 import { Component, Input, Output, EventEmitter, forwardRef } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule, ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { Select } from 'primeng/select';
 
 @Component({
   selector: 'app-select',
   standalone: true,
-  imports: [CommonModule, FormsModule, Select],
+  imports: [FormsModule, Select],
   template: `
     <p-select
       [options]="options"

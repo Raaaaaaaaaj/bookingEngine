@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { Auth } from '../../../core/services/auth';
 import { OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
+
 import { TabsModule } from 'primeng/tabs';
 // import { AsyncPipe } from '@angular/common';
 @Component({
   selector: 'app-properties',
-  imports: [RouterModule, TabsModule, CommonModule],
+  imports: [RouterModule, TabsModule],
   templateUrl: './properties.component.html',
   styleUrl: './properties.component.css'
 })

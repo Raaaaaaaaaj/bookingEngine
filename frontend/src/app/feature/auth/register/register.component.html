@@ -1,54 +1,56 @@
 <div class="container mt-5">
-    <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-12 col-md-6">
-            <div class="form-container">
-                <h2 class="text-center mb-4">Create Account</h2>
-                <form id="registrationForm" (ngSubmit)="registerUser()">
-                    <div class="mb-3">
-                        <label for="userName" class="form-label">Full Name</label>
-                        <input type="text" pInputText [(ngModel)]="user.userName" class="text-start" name="userName" />
-                        <div class="error-message" id="fuserNameError"></div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="userMail" class="form-label">Email Address</label>
-                        <input type="email" pInputText [(ngModel)]="user.userMail" class="text-start" name="userMail" />
-                        <div class="error-message" id="userMailError"></div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="puserPhonehone" class="form-label">Phone Number</label>
-                        <input type="tel" pInputText [(ngModel)]="user.userPhone" class="text-start" name="userPhone" />
-                        <div class="error-message" id="userPhoneError"></div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="userPass" class="form-label">Password</label>
-                        <p-password [(ngModel)]="user.userPass" [toggleMask]="true" class="w-50" class="text-start"
-                            name="userPass" />
-                        <small class="form-text text-muted" id="passwordHint">Password must be at least 8 characters
-                            long
-                            with
-                            numbers, letters, and special characters</small>
-                        <div class="error-message" id="userPassError"></div>
-                    </div>
-                    <!-- <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirm Password</label>
-                        <p-password [(ngModel)]="user.confirmPassword" name="confirmPassword" [toggleMask]=" true"
-                            class="w-50" class="text-start" name="confirmPassword" />
-                        <div class="error-message" id="confirmPasswordError"></div>
-                    </div> -->
-                    <div>
-                        <small>Already have an account? <a href='auth/login'>Login</a> Here</small>
-                    </div>
-                    <button type="submit" class="btn btn-primary w-100" id="submitBtn">
-                        Create Account
-                        <span style="vertical-align: middle; margin-left: 8px;">
-                            <p-progress-spinner *ngIf="spinner" strokeWidth="8" fill="transparent"
-                                animationDuration=".5s" [style]="{ width: '20px', height: '20px' }">
-                            </p-progress-spinner>
-                        </span>
-                    </button>
-                </form>
+  <div class="row d-flex align-items-center justify-content-center">
+    <div class="col-12 col-md-6">
+      <div class="form-container">
+        <h2 class="text-center mb-4">Create Account</h2>
+        <form id="registrationForm" (ngSubmit)="registerUser()">
+          <div class="mb-3">
+            <label for="userName" class="form-label">Full Name</label>
+            <input type="text" pInputText [(ngModel)]="user.userName" class="text-start" name="userName" />
+            <div class="error-message" id="fuserNameError"></div>
+          </div>
+          <div class="mb-3">
+            <label for="userMail" class="form-label">Email Address</label>
+            <input type="email" pInputText [(ngModel)]="user.userMail" class="text-start" name="userMail" />
+            <div class="error-message" id="userMailError"></div>
+          </div>
+          <div class="mb-3">
+            <label for="puserPhonehone" class="form-label">Phone Number</label>
+            <input type="tel" pInputText [(ngModel)]="user.userPhone" class="text-start" name="userPhone" />
+            <div class="error-message" id="userPhoneError"></div>
+          </div>
+          <div class="mb-3">
+            <label for="userPass" class="form-label">Password</label>
+            <p-password [(ngModel)]="user.userPass" [toggleMask]="true" class="w-50" class="text-start"
+              name="userPass" />
+              <small class="form-text text-muted" id="passwordHint">Password must be at least 8 characters
+                long
+                with
+              numbers, letters, and special characters</small>
+              <div class="error-message" id="userPassError"></div>
             </div>
+            <!-- <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <p-password [(ngModel)]="user.confirmPassword" name="confirmPassword" [toggleMask]=" true"
+              class="w-50" class="text-start" name="confirmPassword" />
+              <div class="error-message" id="confirmPasswordError"></div>
+            </div> -->
+            <div>
+              <small>Already have an account? <a href='auth/login'>Login</a> Here</small>
+            </div>
+            <button type="submit" class="btn btn-primary w-100" id="submitBtn">
+              Create Account
+              <span style="vertical-align: middle; margin-left: 8px;">
+                @if (spinner) {
+                  <p-progress-spinner strokeWidth="8" fill="transparent"
+                    animationDuration=".5s" [style]="{ width: '20px', height: '20px' }">
+                  </p-progress-spinner>
+                }
+              </span>
+            </button>
+          </form>
         </div>
+      </div>
     </div>
-</div>
-<p-toast></p-toast>
+  </div>
+  <p-toast></p-toast>

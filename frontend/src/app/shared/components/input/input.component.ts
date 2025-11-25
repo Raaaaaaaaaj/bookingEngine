@@ -8,7 +8,7 @@ import {
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { FloatLabel } from 'primeng/floatlabel';
-import { CommonModule } from '@angular/common';
+
 import {
   ControlValueAccessor,
   NG_VALUE_ACCESSOR,
@@ -17,7 +17,7 @@ import {
 @Component({
   selector: 'app-input',
   standalone: true,
-  imports: [InputTextModule, FormsModule, FloatLabel, CommonModule],
+  imports: [InputTextModule, FormsModule, FloatLabel],
   template: `
     <p-floatlabel variant="on">
       <input
@@ -32,11 +32,13 @@ import {
         (input)="onInput($event)"
         (blur)="onTouched()"
         autocomplete="off"
-      />
-      <label [for]="id">{{ label }}</label>
-    </p-floatlabel>
-    <small *ngIf="error" class="text-danger text-sm">{{ error }}</small>
-  `,
+        />
+        <label [for]="id">{{ label }}</label>
+      </p-floatlabel>
+      @if (error) {
+        <small class="text-danger text-sm">{{ error }}</small>
+      }
+    `,
   styles: `
     :host {
       display: block;

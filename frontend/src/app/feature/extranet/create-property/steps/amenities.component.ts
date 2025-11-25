@@ -1,23 +1,23 @@
 import { Component, Input, OnInit } from "@angular/core";
 import { FormGroup, ReactiveFormsModule } from "@angular/forms";
-import { CommonModule } from '@angular/common';
+
 import { HttpClient } from "@angular/common/http";
 @Component({
   selector: "app-amenities",
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [ReactiveFormsModule],
   template: `
+  <h1>Amenities</h1>
   <h1>{{config?.category}}</h1>
   @if(config){
     <ul>
-      @for(let amenity of config.amenities){
+      @for(amenity of config.amenities; track amenity){
         <li>
           {{amenity.name}}
         </li>
       }
     </ul>
   }
-
 `,
   styles: [`
 `]

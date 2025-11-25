@@ -6,7 +6,7 @@ import {
   Validators,
   FormsModule
 } from "@angular/forms";
-import { CommonModule } from "@angular/common";
+
 import { Checkbox } from "primeng/checkbox";
 import { InputComponent } from "../../../../shared/components/input/input.component";
 import { SelectComponent } from "../../../../shared/components/select/select.component";
@@ -15,21 +15,19 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
   standalone: true,
   imports: [
     ReactiveFormsModule,
-    CommonModule,
     InputComponent,
     SelectComponent,
-    // Checkbox,
     FormsModule
-  ],
+],
   template: `
     <div
       class="row d-flex align-items-center flex-column justify-content-center"
-    >
+      >
       <div class="stepHeader text-center text-decoration-underline">
         <h4>Please fill the {{ title }} form</h4>
       </div>
       <form [formGroup]="basicInfoForm" class="row basicInfoForm mt-4">
-
+    
         <!-- Hotel Name -->
         <div class="col-md-4 text-left">
           <p>
@@ -45,7 +43,7 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
             [required]="true"
           ></app-input>
         </div>
-
+    
         <!-- Hotel Star Rating -->
         <div class="col-md-4 text-left">
           <p><b>2. Hotel Star Rating</b> <br /></p>
@@ -57,9 +55,9 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
             arealabel="Select Star Rating"
           ></app-select>
         </div>
-
+    
         <hr />
-
+    
         <!-- Hotel Email Adress -->
         <div class="col-md-4 text-left">
           <p>
@@ -69,24 +67,26 @@ import { SelectComponent } from "../../../../shared/components/select/select.com
         </div>
         <div class="col-md-8 mb-4 position-relative">
           <app-input
-            formControlName="email" 
+            formControlName="email"
             (input)="onEmailChange()"
             placeholder="Enter your email"
           ></app-input>
-
+    
           <!-- Verify button appears dynamically -->
           <span class="position-absolute end-0 top-0 mt-2 me-4" (click)="verifyEmail()"> Verify </span>
-
-          <small *ngIf="basicInfoForm.get('email')?.invalid && basicInfoForm.get('email')?.touched" class="text-danger">
-  Please enter a valid email.
-</small>
+    
+          @if (basicInfoForm.get('email')?.invalid && basicInfoForm.get('email')?.touched) {
+            <small class="text-danger">
+              Please enter a valid email.
+            </small>
+          }
         </div>
-
+    
         <!-- Hotel Phone Number -->
-
+    
       </form>
     </div>
-  `,
+    `,
   styles: [`
     .position-relative {
   position: relative;

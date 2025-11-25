@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { environment } from '../../../../environments/environment';
 // import { ReactiveFormsModule, FormControl, FormGroup, Validators } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+
 import { Router } from '@angular/router';
 import { PasswordModule } from 'primeng/password';
 import { FormsModule } from '@angular/forms';
@@ -14,7 +14,7 @@ const registerUserUrl = `${environment.apiUrl}/register`;
 
   @Component({
   selector: 'app-register',
-  imports: [FormsModule, PasswordModule, InputTextModule, CommonModule, ToastModule, ProgressSpinner],
+  imports: [FormsModule, PasswordModule, InputTextModule, ToastModule, ProgressSpinner],
   templateUrl: './register.component.html',
   styleUrl: './register.component.css',
   providers: [MessageService]

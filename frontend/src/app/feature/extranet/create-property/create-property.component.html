@@ -2,34 +2,52 @@
   <div class="card rounded-3 flex justify-center p-4">
     <p-stepper [(value)]="currentStep" class="basis-[50rem]" [linear]="true">
       <p-step-list>
-        <p-step *ngFor="let step of steps; let i = index" [value]="i + 1">
-          {{ step }}
-        </p-step>
+        @for (step of steps; track step; let i = $index) {
+          <p-step [value]="i + 1">
+            {{ step }}
+          </p-step>
+        }
       </p-step-list>
       <p-step-panels>
-        <p-step-panel *ngFor="let step of steps; let i = index" [value]="i + 1">
-          <ng-template #content>
-            <div class="border rounded-3 bg-white p-3 d-flex align-items-center justify-content-center">
-              <!-- {{ step }} Content -->
-              <ng-container [ngSwitch]="i">
-                <app-basic-info *ngSwitchCase=" 0" [parentForm]="mainForm" [title]="step" class="w-75"></app-basic-info>
-                <app-amenities *ngSwitchCase="1" [parentForm]="mainForm" [title]="step" class="w-75"></app-amenities>
-                <app-rooms *ngSwitchCase="2" [parentForm]="mainForm" [title]="step" class="w-75"></app-rooms>
-                <app-photos *ngSwitchCase="3" [parentForm]="mainForm" [title]="step" class="w-75"></app-photos>
-                <app-policies *ngSwitchCase="4" [parentForm]="mainForm" [title]="step" class="w-75"></app-policies>
-              </ng-container>
-            </div>
+        @for (step of steps; track step; let i = $index) {
+          <p-step-panel [value]="i + 1">
+            <ng-template #content>
+              <div class="border rounded-3 bg-white p-3 d-flex align-items-center justify-content-center">
+                <!-- {{ step }} Content -->
+                @switch (i) {
+                  @case ( 0) {
+                    <app-basic-info [parentForm]="mainForm" [title]="step" class="w-75"></app-basic-info>
+                  }
+                  @case (1) {
+                    <app-amenities [parentForm]="mainForm" [title]="step" class="w-75"></app-amenities>
+                  }
+                  @case (2) {
+                    <app-rooms [parentForm]="mainForm" [title]="step" class="w-75"></app-rooms>
+                  }
+                  @case (3) {
+                    <app-photos [parentForm]="mainForm" [title]="step" class="w-75"></app-photos>
+                  }
+                  @case (4) {
+                    <app-policies [parentForm]="mainForm" [title]="step" class="w-75"></app-policies>
+                  }
+                }
+              </div>
             <div class="d-flex pt-6 gap-2 mt-4" [ngClass]="{
                     'justify-content-end': currentStep === 1,
                     'justify-content-between': currentStep > 1
                 }">
-              <p-button *ngIf="currentStep > 1" label="Back" severity="secondary" icon="pi pi-arrow-left"
-                (onClick)="prevStep()" />
-              <p-button *ngIf=" currentStep < steps.length" label="Next" icon="pi pi-arrow-right" iconPos="right"
-                (onClick)="nextStep()" />
-            </div>
-          </ng-template>
-        </p-step-panel>
+                @if (currentStep > 1) {
+                  <p-button label="Back" severity="secondary" icon="pi pi-arrow-left"
+                    (onClick)="prevStep()" />
+                }
+                @if ( currentStep < steps.length) {
+                  <p-button label="Next" icon="pi pi-arrow-right" iconPos="right"
+                    (onClick)="nextStep()" />
+                }
+              </div>
+            </ng-template>
+          </p-step-panel>
+        }
       </p-step-panels>
     </p-stepper>
   </div>

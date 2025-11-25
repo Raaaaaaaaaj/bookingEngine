@@ -1,17 +1,19 @@
 <section class="hotelSearchResult container rounded-5">
-    <!-- <div *ngFor="let hotel of hotels">
-        <h1>{{hotel.name}}</h1>
-        <h2>{{hotel.location}}</h2>
-    </div> -->
-    <p-card *ngFor="let hotel of hotels">
-        <div class="row">
-            <div class="col-3">
-                <img [src]="hotel.images[0]" alt="{{hotel.name}}" class="img-fluid w-100">
-            </div>
-            <div class="col-9">
-                <h2>{{hotel.name}}</h2>
-                <h3>{{hotel.rating}}</h3>
-            </div>
-        </div>
-    </p-card>
-</section>  
+  <!-- <div *ngFor="let hotel of hotels">
+  <h1>{{hotel.name}}</h1>
+  <h2>{{hotel.location}}</h2>
+</div> -->
+@for (hotel of hotels; track hotel) {
+  <p-card>
+    <div class="row">
+      <div class="col-3">
+        <img [src]="hotel.images[0]" alt="{{hotel.name}}" class="img-fluid w-100">
+      </div>
+      <div class="col-9">
+        <h2>{{hotel.name}}</h2>
+        <h3>{{hotel.rating}}</h3>
+      </div>
+    </div>
+  </p-card>
+}
+</section>
