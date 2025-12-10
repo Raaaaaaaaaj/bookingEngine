@@ -4,7 +4,7 @@ import { PropertiesComponent } from './properties/properties.component';
 import { CreatePropertyComponent } from './create-property/create-property.component';
 import { BasicInfoComponent } from './create-property/steps/basic-info.component';
 import { AmenitiesComponent } from './create-property/steps/amenities.component';
-import { RoomsComponent } from './create-property/steps/rooms.component';
+import { RoomsComponent } from './create-property/steps/roomData/rooms.component';
 import { PhotosComponent } from './create-property/steps/photos.component';
 import { PoliciesComponent } from './create-property/steps/policies.component';
 

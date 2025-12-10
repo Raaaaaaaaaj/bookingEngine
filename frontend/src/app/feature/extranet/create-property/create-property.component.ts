@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { BasicInfoComponent } from './steps/basic-info.component';
 import { AmenitiesComponent } from './steps/amenities.component';
-import { RoomsComponent } from './steps/rooms.component';
+import { RoomsComponent } from './steps/roomData/rooms.component';
 import { PhotosComponent } from './steps/photos.component';
 import { PoliciesComponent } from './steps/policies.component';
 @Component({
