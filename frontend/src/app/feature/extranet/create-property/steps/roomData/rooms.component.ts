@@ -1,16 +1,17 @@
-import { Component, OnInit } from "@angular/core";
-import { FormBuilder, FormGroup } from "@angular/forms";
-import { RoomBasicDetailsComponent } from "./room-steps/roomBasicDetails.component";
+import { Component, OnInit, Input } from "@angular/core";
+import { FormBuilder, FormGroup, FormArray } from "@angular/forms";
+import {RoomsStepperComponent} from "./room-steps/room-stepper.component";
 @Component ({
     selector: 'app-rooms',
-    imports: [RoomBasicDetailsComponent],
+    imports: [RoomsStepperComponent],
     template:`
-        <app-roomBasicDetails></app-roomBasicDetails>
+        <app-roomStepper></app-roomStepper>
     `,
     styles: ``
 })
 
 export class RoomsComponent implements OnInit{
+    @Input() parentForm!: FormGroup;
     roomForm!: FormGroup;
     constructor(private fb: FormBuilder){}
     ngOnInit(){

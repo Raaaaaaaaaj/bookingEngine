@@ -33,7 +33,7 @@ export class CreatePropertyComponent implements OnInit {
     this.mainForm = this.fb.group({ //Decrale formgroup
       basicInfo: this.fb.group({}),
       amenities: this.fb.group({}),
-      rooms: this.fb.group({}),
+      rooms: this.fb.array([]),
       gallery: this.fb.group({}),
       policies: this.fb.group({}),
     })
