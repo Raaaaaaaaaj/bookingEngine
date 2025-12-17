@@ -1,0 +1,144 @@
+{
+  "mandatory": {
+    "category": "Mandatory",
+    "amenities": [
+      { "id": "ac", "name": "Air Conditioner" },
+      { "id": "laundry", "name": "Laundry" },
+      { "id": "paper", "name": "Newspaper" },
+      { "id": "parking", "name": "Parking" },
+      { "id": "roomservice", "name": "Room Service" },
+      { "id": "smokingroom", "name": "Smoking Rooms" },
+      { "id": "pool", "name": "Swimming Pool" },
+      { "id": "restro", "name": "Restaurant" },
+      { "id": "wifi", "name": "WiFi" },
+      { "id": "lounge", "name": "Lounge" },
+      { "id": "reception", "name": "Reception" },
+      { "id": "bar", "name": "Bar" },
+      { "id": "gym", "name": "Gym" },
+      { "id": "cctv", "name": "CCTV" },
+      { "id": "fireextinguisher", "name": "Fire Extinguishers" }
+    ]
+  },
+
+  "basicFacilities": {
+    "category": "Basic Facilities",
+    "amenities": [
+      { "id": "lift", "name": "Elevator/Lift" },
+      { "id": "housekeeping", "name": "Housekeeping" },
+      { "id": "lan", "name": "Lan" },
+      { "id": "backup", "name": "Power Backup" },
+      { "id": "washingmachine", "name": "Washing Machine" },
+      { "id": "evcharging", "name": "EV Charging Station" }
+    ]
+  },
+
+  "outdoorActivities": {
+    "category": "Outdoor Activities",
+    "amenities": [
+      { "id": "beach", "name": "Beach" },
+      { "id": "bornfire", "name": "Bornfire" },
+      { "id": "golf", "name": "Golf" },
+      { "id": "kayaks", "name": "Kayaks" },
+      { "id": "outsidesports", "name": "Outside Sports" },
+      { "id": "snorkelling", "name": "Snorkeling" },
+      { "id": "cycling", "name": "Cyclcing" },
+      { "id": "telescope", "name": "Telescope" },
+      { "id": "skiing", "name": "Skiing" },
+      { "id": "junglesafari", "name": "Jungle Safari" }
+    ]
+  },
+
+  "commonArea": {
+    "category": "Common Area",
+    "amenities": [
+      { "id": "balcony", "name": "Balcony" },
+      { "id": "fireplace", "name": "Fireplace" },
+      { "id": "lawn", "name": "Lawn" },
+      { "id": "library", "name": "Library" },
+      { "id": "jacuzzi", "name": "Jacuzzi" },
+      { "id": "gameroom", "name": "Game room" },
+      { "id": "cycling", "name": "Cyclcing" },
+      { "id": "telescope", "name": "Telescope" },
+      { "id": "skiing", "name": "Skiing" },
+      { "id": "junglesafari", "name": "Jungle Safari" }
+    ]
+  },
+
+  "healthWellness": {
+    "category": "Health & Wellness",
+    "amenities": [
+      { "id": "activitycenter", "name": "Activity Center" },
+      { "id": "reflexology", "name": "Reflexology" },
+      { "id": "yoga", "name": "Yoga" },
+      { "id": "meditationroom", "name": "Meditation Room" },
+      { "id": "jacuzzi", "name": "Jacuzzi" },
+      { "id": "gameroom", "name": "Game room" },
+      { "id": "cycling", "name": "Cyclcing" },
+      { "id": "telescope", "name": "Telescope" },
+      { "id": "skiing", "name": "Skiing" },
+      { "id": "junglesafari", "name": "Jungle Safari" }
+    ]
+  },
+
+  "beautySpa": {
+    "category": "Beauty & Spa",
+    "amenities": [
+      { "id": "massage", "name": "Massage" },
+      { "id": "salon", "name": "Salon" },
+      { "id": "spa", "name": "Spa" },
+      { "id": "steam", "name": "Steam" },
+      { "id": "openairbath", "name": "Open Air Bath" },
+      { "id": "hammam", "name": "Hammam" }
+    ]
+  },
+
+  "security": {
+    "category": "Security",
+    "amenities": [
+      { "id": "alarms", "name": "Security Alarms" },
+      { "id": "guards", "name": "Security Guards" },
+      { "id": "extinguisher", "name": "Fire Extinguisher" }
+    ]
+  },
+
+  "transfers": {
+    "category": "Transfers",
+    "amenities": [
+      { "id": "shuttle", "name": "Shuttle Service" },
+      { "id": "stationTransfer", "name": "Railway Station Transfers" },
+      { "id": "terminusTransfer", "name": "Bus Terminus Transfer" },
+      { "id": "airportTransfer", "name": "Airport Transfer" }
+    ]
+  },
+
+  "entertainment": {
+    "category": "Entertainment",
+    "amenities": [
+      { "id": "events", "name": "Events" },
+      { "id": "pub", "name": "Pub" },
+      { "id": "professionalPhotography", "name": "Professional Photography" },
+      { "id": "nightClub", "name": "Night Club" },
+      { "id": "beachClub", "name": "Beach Club" },
+      { "id": "movieroom", "name": "Movie Room" },
+      { "id": "musicsystem", "name": "Music System" },
+      { "id": "waterpark", "name": "Water Park" }
+    ]
+  },
+
+  "paymentService": {
+    "category": "Payment Service",
+    "amenities": [
+      { "id": "atm", "name": "ATM" },
+      { "id": "currencyExchange", "name": "Currency Exchange" }
+    ]
+  },
+
+  "indoorSports": {
+    "category": "Indoor Sports",
+    "amenities": [
+      { "id": "tennis", "name": "Tennis" },
+      { "id": "carrom", "name": "Carrom" },
+      { "id": "basketball", "name": "Basketball" }
+    ]
+  }
+}
