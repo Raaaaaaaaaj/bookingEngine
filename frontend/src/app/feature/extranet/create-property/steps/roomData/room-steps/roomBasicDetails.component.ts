@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from "@angular/forms";
-import { InputComponent } from "../../../../../../shared/components/input/input.component";
-import { SelectComponent } from "../../../../../../shared/components/select/select.component";
+import { InputComponent } from "../../../../../../shared/components/ui/input/input.component";
+import { SelectComponent } from "../../../../../../shared/components/ui/select/select.component";
 
 @Component ({
     selector: 'app-roomBasicDetails',

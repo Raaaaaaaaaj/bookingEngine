@@ -2,16 +2,17 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormGroup, FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
+import { SelectComponent } from "../../../../../../shared/components/ui/select/select.component";
 
 @Component({
   selector: 'app-mealplanandinventory',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [],
   template: `
-        <h1>Room Meal plan conmponent works</h1>
+        
   `,
   styles: ``,
 })
-export class MealplanandinventoryComponent{
+export class MealplanandinventoryComponent {
   
 }

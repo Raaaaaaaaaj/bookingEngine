@@ -22,7 +22,7 @@ import { StepperModule } from 'primeng/stepper';
       <div class="col-12">
         <p-stepper [value]="currentStep">
     <p-step-item [value]="1">
-        <p-step>Header I</p-step>
+        <p-step>Room Basic Details</p-step>
         <p-step-panel>
             <ng-template #content let-activateCallback="activateCallback">
                 <div class="flex flex-col h-48">
@@ -40,7 +40,7 @@ import { StepperModule } from 'primeng/stepper';
     </p-step-item>
 
     <p-step-item [value]="2">
-        <p-step>Header II</p-step>
+        <p-step>Sleeping Arrangements & Occupancy</p-step>
         <p-step-panel>
             <ng-template #content let-activateCallback="activateCallback">
                 <div class="flex flex-col h-48">
@@ -59,7 +59,7 @@ import { StepperModule } from 'primeng/stepper';
     </p-step-item>
 
     <p-step-item [value]="3">
-        <p-step>Header III</p-step>
+        <p-step>Meal Plans & Inventory</p-step>
         <p-step-panel>
             <ng-template #content let-activateCallback="activateCallback">
                 <div class="flex flex-col h-48">

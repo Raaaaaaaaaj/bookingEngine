@@ -8,8 +8,8 @@ import {
 } from "@angular/forms";
 
 import { Checkbox } from "primeng/checkbox";
-import { InputComponent } from "../../../../shared/components/input/input.component";
-import { SelectComponent } from "../../../../shared/components/select/select.component";
+import { InputComponent } from "../../../../shared/components/ui/input/input.component";
+import { SelectComponent } from "../../../../shared/components/ui/select/select.component";
 @Component({
   selector: "app-basic-info",
   standalone: true,
