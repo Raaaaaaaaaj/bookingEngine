@@ -9,7 +9,7 @@ import { SelectComponent } from '../../../../../../shared/components/ui/select/s
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule, SelectComponent],
   template: `
-        <form [formGroup]="mealPlanandInventory" class="row mealPlanandInventory mt-4">
+        <form class="row mealPlanandInventory mt-4">
         <!-- Meal Plan Selection -->
          <div class="col-md-4 text-left">
           <p>

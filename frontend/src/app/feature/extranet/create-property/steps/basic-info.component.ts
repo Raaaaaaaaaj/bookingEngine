@@ -41,6 +41,7 @@ import { SelectComponent } from "../../../../shared/components/ui/select/select.
             type="text"
             label="Hotel Name"
             [required]="true"
+            formControlName="hotelName"
           ></app-input>
         </div>
     
@@ -53,6 +54,7 @@ import { SelectComponent } from "../../../../shared/components/ui/select/select.
             id="hotelStarRating"
             [options]="starRatingOptions"
             arealabel="Select Star Rating"
+            formControlName="starRating"
           ></app-select>
         </div>
     
@@ -119,9 +121,12 @@ export class BasicInfoComponent implements OnInit {
   constructor(private fb: FormBuilder) {} // 2. Inject FormBuilder
 
   ngOnInit(): void {
+    this.parentForm.setControl('basicInfo', this.basicInfoForm)
     // 3. Initialize the FormGroup here
     this.basicInfoForm = this.fb.group({
       'email': ['', [Validators.required, Validators.email]],
+      'hotelName': ['', [Validators.required, Validators.minLength(3)]],
+      'starRating': ['', Validators.required],
     });
   }
 
